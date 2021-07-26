@@ -71,16 +71,17 @@ if __name__ == "__main__":
     s = {pkgpattern.sub('mingw-w64-', key): value for key, value in parse_repo("https://mirror.msys2.org/mingw/{0}/{0}.files".format(args.second)).items()}
     for pkg in sorted(r.keys() | s.keys()):
         if pkg not in r:
-            print("{}: only in {}".format(pkg, args.second))
+            print("Only in {}: {}".format(pkg, args.second))
         elif pkg not in s:
-            print("{}: only in {}".format(pkg, args.first))
+            print("Only in {}: {}".format(pkg, args.first))
         else:
             rf = set(filepattern.sub('', f) for f in r[pkg]['%FILES%'])
             sf = set(filepattern.sub('', f) for f in s[pkg]['%FILES%'])
             symdiff = rf ^ sf
             if symdiff:
-                print("--- ", r[pkg]['%NAME%'][0])
-                print("+++ ", s[pkg]['%NAME%'][0])
+                print("diff", r[pkg]['%NAME%'][0], s[pkg]['%NAME%'][0])
+                print("---", r[pkg]['%NAME%'][0])
+                print("+++", s[pkg]['%NAME%'][0])
                 for f in sorted(symdiff):
                     sym = '-' if f in rf else '+'
-                    print(sym, " ", f)
+                    print(sym, f, sep='')
