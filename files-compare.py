@@ -59,21 +59,35 @@ def parse_repo(url: str) -> Dict[str, Dict[str, List[str]]]:
         sources[package_name] = desc
     return sources
 
+PACKAGE_PREFIXES = {
+        "clang32":    "mingw-w64-clang-i686-",
+        "clang64":    "mingw-w64-clang-x86_64-",
+        "clangarm64": "mingw-w64-clang-aarch64-",
+        "mingw32":    "mingw-w64-i686-",
+        "mingw64":    "mingw-w64-x86_64-",
+        "ucrt64":     "mingw-w64-ucrt-x86_64-"
+    }
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Compare file lists')
+    parser.add_argument('--staging', action='store_true')
     parser.add_argument('first')
     parser.add_argument('second')
     args = parser.parse_args()
 
     pkgpattern = re.compile(r'mingw-w64-(clang-|ucrt-)?(x86_64|i686|aarch64)-')
     filepattern = re.compile(r'^/?[^/]+/')
-    r = {pkgpattern.sub('mingw-w64-', key): value for key, value in parse_repo("https://mirror.msys2.org/mingw/{0}/{0}.files".format(args.first)).items()}
-    s = {pkgpattern.sub('mingw-w64-', key): value for key, value in parse_repo("https://mirror.msys2.org/mingw/{0}/{0}.files".format(args.second)).items()}
+    r = {pkgpattern.sub('mingw-w64-', key.rsplit('-',2)[0]): value for key, value in parse_repo("https://mirror.msys2.org/mingw/{0}/{0}.files".format(args.first)).items()}
+    if args.staging:
+        s = {pkgpattern.sub('mingw-w64-', key.rsplit('-',2)[0]): value for key, value in parse_repo("https://repo.msys2.org/staging/staging.files").items() if key.startswith(PACKAGE_PREFIXES[args.second])}
+    else:
+        s = {pkgpattern.sub('mingw-w64-', key.rsplit('-',2)[0]): value for key, value in parse_repo("https://mirror.msys2.org/mingw/{0}/{0}.files".format(args.second)).items()}
     for pkg in sorted(r.keys() | s.keys()):
         if pkg not in r:
             print("Only in {1}: {0}".format(pkg, args.second))
         elif pkg not in s:
-            print("Only in {1}: {0}".format(pkg, args.first))
+            if not args.staging:
+                print("Only in {1}: {0}".format(pkg, args.first))
         else:
             rf = set(filepattern.sub('', f) for f in r[pkg]['%FILES%'])
             sf = set(filepattern.sub('', f) for f in s[pkg]['%FILES%'])
