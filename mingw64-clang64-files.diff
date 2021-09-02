@@ -1,60 +1,59 @@
-Only in mingw64: mingw-w64-MinHook-1.3.3-1
-Only in mingw64: mingw-w64-OpenSceneGraph-3.6.5-6
-Only in mingw64: mingw-w64-OpenSceneGraph-debug-3.6.5-6
-Only in mingw64: mingw-w64-SDL_mixer-1.2.12-8
-Only in mingw64: mingw-w64-adol-c-2.7.2-1
-Only in mingw64: mingw-w64-ag-2.2.0-2
-Only in mingw64: mingw-w64-akira-0.0.14-2
-Only in mingw64: mingw-w64-alembic-1.7.16-1
+Only in mingw64: mingw-w64-MinHook
+Only in mingw64: mingw-w64-OpenSceneGraph
+Only in mingw64: mingw-w64-OpenSceneGraph-debug
+Only in mingw64: mingw-w64-adol-c
+Only in mingw64: mingw-w64-ag
+Only in mingw64: mingw-w64-akira
+Only in mingw64: mingw-w64-alembic
 diff mingw-w64-x86_64-allegro mingw-w64-clang-x86_64-allegro
---- mingw-w64-x86_64-allegro
-+++ mingw-w64-clang-x86_64-allegro
+--- mingw-w64-x86_64-allegro 5.2.6.0-1
++++ mingw-w64-clang-x86_64-allegro 5.2.6.0-1
 -bin/allegro_video-5.2.dll
 -include/allegro5/allegro_video.h
 -lib/liballegro_video.dll.a
 -lib/pkgconfig/allegro_video-5.pc
-Only in mingw64: mingw-w64-apr-util-1.6.1-2
-Only in mingw64: mingw-w64-aravis-0.8.14-1
-Only in mingw64: mingw-w64-arm-none-eabi-gcc-10.1.0-1
-Only in mingw64: mingw-w64-arm-none-eabi-newlib-3.3.0-1
-Only in mingw64: mingw-w64-armadillo-10.5.0-1
-Only in mingw64: mingw-w64-arpack-3.8.0-1
-Only in mingw64: mingw-w64-arrow-4.0.1-1
-Only in mingw64: mingw-w64-asciidoctor-2.0.10-3
+diff mingw-w64-x86_64-apr-util mingw-w64-clang-x86_64-apr-util
+--- mingw-w64-x86_64-apr-util 1.6.1-2
++++ mingw-w64-clang-x86_64-apr-util 1.6.1-2
+-lib/apr-util-1/apr_dbd_odbc-1.dll
+-lib/apr-util-1/apr_dbd_odbc.a
+-lib/apr-util-1/apr_dbd_odbc.dll.a
+Only in mingw64: mingw-w64-arm-none-eabi-gcc
+Only in mingw64: mingw-w64-arm-none-eabi-newlib
+Only in mingw64: mingw-w64-armadillo
+Only in mingw64: mingw-w64-arpack
 diff mingw-w64-x86_64-audaspace mingw-w64-clang-x86_64-audaspace
---- mingw-w64-x86_64-audaspace
-+++ mingw-w64-clang-x86_64-audaspace
+--- mingw-w64-x86_64-audaspace 1.3.0.r638-3
++++ mingw-w64-clang-x86_64-audaspace 1.3.0.r638-3
 -lib/python3.9/site-packages/aud.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/aud.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-avr-gcc-8.4.0-4
-Only in mingw64: mingw-w64-avr-libc-2.0.0-3
-Only in mingw64: mingw-w64-aws-sdk-cpp-1.8.149-2
-Only in mingw64: mingw-w64-baobab-40.0-1
+Only in mingw64: mingw-w64-avr-gcc
+Only in mingw64: mingw-w64-avr-libc
 diff mingw-w64-x86_64-bat mingw-w64-clang-x86_64-bat
---- mingw-w64-x86_64-bat
-+++ mingw-w64-clang-x86_64-bat
+--- mingw-w64-x86_64-bat 0.18.1-1
++++ mingw-w64-clang-x86_64-bat 0.18.1-1
 +share/licenses/mingw-w64-clang-x86_64-bat/
 +share/licenses/mingw-w64-clang-x86_64-bat/LICENSE-APACHE
 +share/licenses/mingw-w64-clang-x86_64-bat/LICENSE-MIT
 -share/licenses/mingw-w64-x86_64-bat/
 -share/licenses/mingw-w64-x86_64-bat/LICENSE-APACHE
 -share/licenses/mingw-w64-x86_64-bat/LICENSE-MIT
-Only in mingw64: mingw-w64-binutils-2.36.1-3
-Only in mingw64: mingw-w64-blender-2.92.0-2
-Only in mingw64: mingw-w64-bmake-20181221-7
-Only in mingw64: mingw-w64-breakpad-git-r1680.70914b2d-2
-Only in mingw64: mingw-w64-bsdfprocessor-1.2.1-1
-Only in mingw64: mingw-w64-bullet-2.87-3
-Only in mingw64: mingw-w64-bullet-debug-2.87-3
-Only in mingw64: mingw-w64-butler-15.21.0-1
-Only in mingw64: mingw-w64-c99-to-c89-git-r169.b3d496d-1
-Only in mingw64: mingw-w64-cas-offinder-2.4.1-1
-Only in mingw64: mingw-w64-cegui-0.8.7-1
-Only in mingw64: mingw-w64-ceres-solver-2.0.0-2
-Only in mingw64: mingw-w64-cgns-4.2.0-1
+Only in mingw64: mingw-w64-binutils
+Only in mingw64: mingw-w64-blender
+Only in mingw64: mingw-w64-bmake
+Only in mingw64: mingw-w64-breakpad-git
+Only in mingw64: mingw-w64-bsdfprocessor
+Only in mingw64: mingw-w64-bullet
+Only in mingw64: mingw-w64-bullet-debug
+Only in mingw64: mingw-w64-butler
+Only in mingw64: mingw-w64-c99-to-c89-git
+Only in mingw64: mingw-w64-cas-offinder
+Only in mingw64: mingw-w64-cegui
+Only in mingw64: mingw-w64-ceres-solver
+Only in mingw64: mingw-w64-cgns
 diff mingw-w64-x86_64-clang mingw-w64-clang-x86_64-clang
---- mingw-w64-x86_64-clang
-+++ mingw-w64-clang-x86_64-clang
+--- mingw-w64-x86_64-clang 12.0.1-5
++++ mingw-w64-clang-x86_64-clang 12.0.1-5
 +bin/as.exe
 +bin/c++.exe
 +bin/cc.exe
@@ -68,26 +67,25 @@ diff mingw-w64-x86_64-clang mingw-w64-clang-x86_64-clang
 +bin/x86_64-w64-mingw32-clang.exe
 +bin/x86_64-w64-mingw32-g++.exe
 +bin/x86_64-w64-mingw32-gcc.exe
-Only in mingw64: mingw-w64-clblast-1.5.2-1
-Only in mingw64: mingw-w64-clucene-2.3.3.4-1
-Only in mingw64: mingw-w64-clutter-gtk-1.8.4-1
+Only in mingw64: mingw-w64-clblast
+Only in mingw64: mingw-w64-clucene
+Only in mingw64: mingw-w64-clutter-gtk
 diff mingw-w64-x86_64-cmake mingw-w64-clang-x86_64-cmake
---- mingw-w64-x86_64-cmake
-+++ mingw-w64-clang-x86_64-cmake
+--- mingw-w64-x86_64-cmake 3.21.2-1
++++ mingw-w64-clang-x86_64-cmake 3.21.2-1
 -share/emacs/site-lisp/cmake-mode.elc
-Only in mingw64: mingw-w64-cmake-doc-qt-3.19.3-1
+Only in mingw64: mingw-w64-cmake-doc-qt
 diff mingw-w64-x86_64-cninja mingw-w64-clang-x86_64-cninja
---- mingw-w64-x86_64-cninja
-+++ mingw-w64-clang-x86_64-cninja
+--- mingw-w64-x86_64-cninja 3.7.6-1
++++ mingw-w64-clang-x86_64-cninja 3.7.6-1
 +share/licenses/mingw-w64-clang-x86_64-cninja/
 +share/licenses/mingw-w64-clang-x86_64-cninja/LICENSE
 -share/licenses/mingw-w64-x86_64-cninja/
 -share/licenses/mingw-w64-x86_64-cninja/LICENSE
-Only in mingw64: mingw-w64-codelite-15.0-2
-Only in mingw64: mingw-w64-coin-4.0.0-4
+Only in mingw64: mingw-w64-codelite
 diff mingw-w64-x86_64-compiler-rt mingw-w64-clang-x86_64-compiler-rt
---- mingw-w64-x86_64-compiler-rt
-+++ mingw-w64-clang-x86_64-compiler-rt
+--- mingw-w64-x86_64-compiler-rt 12.0.1-5
++++ mingw-w64-clang-x86_64-compiler-rt 12.0.1-5
 +bin/
 +bin/libclang_rt.asan_dynamic-x86_64.dll
 +lib/clang/12.0.1/include/fuzzer/
@@ -123,11 +121,11 @@ diff mingw-w64-x86_64-compiler-rt mingw-w64-clang-x86_64-compiler-rt
 +lib/clang/12.0.1/share/
 +lib/clang/12.0.1/share/asan_blacklist.txt
 +lib/clang/12.0.1/share/cfi_blacklist.txt
-Only in mingw64: mingw-w64-cpputest-4.0-1
-Only in mingw64: mingw-w64-creduce-2.10.0-1
+Only in mingw64: mingw-w64-cpputest
+Only in mingw64: mingw-w64-creduce
 diff mingw-w64-x86_64-csfml mingw-w64-clang-x86_64-csfml
---- mingw-w64-x86_64-csfml
-+++ mingw-w64-clang-x86_64-csfml
+--- mingw-w64-x86_64-csfml 2.5.1-1
++++ mingw-w64-clang-x86_64-csfml 2.5.1-1
 -bin/csfml-audio-2.dll
 -bin/csfml-graphics-2.dll
 -bin/csfml-network-2.dll
@@ -138,10 +136,10 @@ diff mingw-w64-x86_64-csfml mingw-w64-clang-x86_64-csfml
 +bin/libcsfml-network-2.dll
 +bin/libcsfml-system-2.dll
 +bin/libcsfml-window-2.dll
-Only in mingw64: mingw-w64-cvode-5.1.0-1
+Only in mingw64: mingw-w64-cvode
 diff mingw-w64-x86_64-cython mingw-w64-clang-x86_64-cython
---- mingw-w64-x86_64-cython
-+++ mingw-w64-clang-x86_64-cython
+--- mingw-w64-x86_64-cython 0.29.23-2
++++ mingw-w64-clang-x86_64-cython 0.29.23-2
 -lib/python3.9/site-packages/Cython/Compiler/FlowControl.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/Cython/Compiler/FlowControl.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/Cython/Compiler/FusedNode.cp39-mingw_x86_64.pyd
@@ -159,147 +157,540 @@ diff mingw-w64-x86_64-cython mingw-w64-clang-x86_64-cython
 -lib/python3.9/site-packages/Cython/Tempita/_tempita.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/Cython/Tempita/_tempita.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-daala-git mingw-w64-clang-x86_64-daala-git
---- mingw-w64-x86_64-daala-git
-+++ mingw-w64-clang-x86_64-daala-git
+--- mingw-w64-x86_64-daala-git r1505.52bbd43-1
++++ mingw-w64-clang-x86_64-daala-git r1505.52bbd43-1
 -share/doc/daala/html/doxygen.png
 +share/doc/daala/html/doxygen.svg
 -share/doc/daala/html/search/close.png
 +share/doc/daala/html/search/close.svg
 -share/doc/daala/html/search/mag_sel.png
 +share/doc/daala/html/search/mag_sel.svg
-Only in mingw64: mingw-w64-darktable-3.4.1-2
-Only in mingw64: mingw-w64-db-6.0.19-4
-Only in mingw64: mingw-w64-devcon-git-r233.8b17cf3-1
-Only in mingw64: mingw-w64-dfu-programmer-0.7.2-2
+Only in mingw64: mingw-w64-darktable
+Only in mingw64: mingw-w64-devcon-git
+Only in mingw64: mingw-w64-dfu-programmer
 diff mingw-w64-x86_64-distorm mingw-w64-clang-x86_64-distorm
---- mingw-w64-x86_64-distorm
-+++ mingw-w64-clang-x86_64-distorm
+--- mingw-w64-x86_64-distorm 3.5-3
++++ mingw-w64-clang-x86_64-distorm 3.5-3
 -lib/python3.9/site-packages/_distorm3.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/_distorm3.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-dlib-19.21-3
-Only in mingw64: mingw-w64-dnscrypt-proxy-1.6.0-2
+Only in mingw64: mingw-w64-dlib
+Only in mingw64: mingw-w64-dnscrypt-proxy
 diff mingw-w64-x86_64-docbook-dsssl mingw-w64-clang-x86_64-docbook-dsssl
---- mingw-w64-x86_64-docbook-dsssl
-+++ mingw-w64-clang-x86_64-docbook-dsssl
+--- mingw-w64-x86_64-docbook-dsssl 1.79-1
++++ mingw-w64-clang-x86_64-docbook-dsssl 1.79-1
 +share/licenses/docbook-dsssl/
 +share/licenses/docbook-dsssl/COPYING
 -share/licenses/mingw-w64-x86_64-docbook-dsssl/
 -share/licenses/mingw-w64-x86_64-docbook-dsssl/COPYING
 diff mingw-w64-x86_64-docbook-xsl mingw-w64-clang-x86_64-docbook-xsl
---- mingw-w64-x86_64-docbook-xsl
-+++ mingw-w64-clang-x86_64-docbook-xsl
+--- mingw-w64-x86_64-docbook-xsl 1.79.2-7
++++ mingw-w64-clang-x86_64-docbook-xsl 1.79.2-7
 +share/licenses/mingw-w64-clang-x86_64-docbook-xsl/
 +share/licenses/mingw-w64-clang-x86_64-docbook-xsl/COPYING
 -share/licenses/mingw-w64-x86_64-docbook-xsl/
 -share/licenses/mingw-w64-x86_64-docbook-xsl/COPYING
-diff mingw-w64-x86_64-doxygen mingw-w64-clang-x86_64-doxygen
---- mingw-w64-x86_64-doxygen
-+++ mingw-w64-clang-x86_64-doxygen
--bin/doxywizard.exe
-Only in mingw64: mingw-w64-dsdp-5.8-1
+Only in mingw64: mingw-w64-dsdp
 diff mingw-w64-x86_64-dust mingw-w64-clang-x86_64-dust
---- mingw-w64-x86_64-dust
-+++ mingw-w64-clang-x86_64-dust
+--- mingw-w64-x86_64-dust 0.5.4-1
++++ mingw-w64-clang-x86_64-dust 0.5.4-1
 +share/licenses/mingw-w64-clang-x86_64-dust/
 +share/licenses/mingw-w64-clang-x86_64-dust/LICENSE
 -share/licenses/mingw-w64-x86_64-dust/
 -share/licenses/mingw-w64-x86_64-dust/LICENSE
-Only in mingw64: mingw-w64-eccodes-2.19.1-1
-Only in mingw64: mingw-w64-ecpprog-0.0.r34.83fff6f-1
-Only in mingw64: mingw-w64-emacs-27.2-3
-Only in mingw64: mingw-w64-embree-3.12.1-2
-Only in mingw64: mingw-w64-ensmallen-2.12.1-2
-Only in mingw64: mingw-w64-eog-plugins-3.26.5-3
-Only in mingw64: mingw-w64-f2c-20200425-1
-Only in mingw64: mingw-w64-ffts-0.0.0.r799.gfe86885-1
+Only in mingw64: mingw-w64-eccodes
+Only in mingw64: mingw-w64-emacs
+Only in mingw64: mingw-w64-embree
+Only in mingw64: mingw-w64-ensmallen
+Only in mingw64: mingw-w64-eog-plugins
+Only in mingw64: mingw-w64-f2c
 diff mingw-w64-x86_64-fftw mingw-w64-clang-x86_64-fftw
---- mingw-w64-x86_64-fftw
-+++ mingw-w64-clang-x86_64-fftw
+--- mingw-w64-x86_64-fftw 3.3.9-3
++++ mingw-w64-clang-x86_64-fftw 3.3.9-3
 -bin/fftwq-wisdom.exe
 -lib/cmake/fftw3/FFTW3qConfig.cmake
 -lib/cmake/fftw3/FFTW3qConfigVersion.cmake
 -lib/libfftw3q.a
 -lib/pkgconfig/fftw3q.pc
 -share/man/man1/fftwq-wisdom.1.gz
-Only in mingw64: mingw-w64-fgsl-1.3.0-1
-Only in mingw64: mingw-w64-field3d-1.7.3-3
-Only in mingw64: mingw-w64-firebird2-git-2.5.9.27152.74a4ec5c50-1
-Only in mingw64: mingw-w64-flexdll-0.34-2
-Only in mingw64: mingw-w64-flickcurl-1.26-2
+Only in mingw64: mingw-w64-fgsl
+Only in mingw64: mingw-w64-field3d
+Only in mingw64: mingw-w64-firebird2-git
+Only in mingw64: mingw-w64-flexdll
+Only in mingw64: mingw-w64-flickcurl
 diff mingw-w64-x86_64-fontconfig mingw-w64-clang-x86_64-fontconfig
---- mingw-w64-x86_64-fontconfig
-+++ mingw-w64-clang-x86_64-fontconfig
+--- mingw-w64-x86_64-fontconfig 2.13.94-1
++++ mingw-w64-clang-x86_64-fontconfig 2.13.94-1
 +share/libalpm/hooks/mingw-w64-clang-x86_64-fontconfig.hook
 -share/libalpm/hooks/mingw-w64-x86_64-fontconfig.hook
-Only in mingw64: mingw-w64-freeimage-3.18.0-6
-Only in mingw64: mingw-w64-freerdp-2.3.2-1
-Only in mingw64: mingw-w64-frei0r-plugins-1.7.0-3
-Only in mingw64: mingw-w64-ftgl-2.4.0-1
-Only in mingw64: mingw-w64-gcc-10.3.0-5
-Only in mingw64: mingw-w64-gcc-ada-10.3.0-5
-Only in mingw64: mingw-w64-gcc-fortran-10.3.0-5
-Only in mingw64: mingw-w64-gcc-libgfortran-10.3.0-5
-Only in mingw64: mingw-w64-gcc-libs-10.3.0-5
-Only in mingw64: mingw-w64-gcc-objc-10.3.0-5
-Only in mingw64: mingw-w64-gdal-3.2.2-4
+Only in mingw64: mingw-w64-fpm
+Only in mingw64: mingw-w64-freeimage
+Only in mingw64: mingw-w64-freerdp
+Only in mingw64: mingw-w64-frei0r-plugins
+diff mingw-w64-x86_64-ftgl mingw-w64-clang-x86_64-ftgl
+--- mingw-w64-x86_64-ftgl 2.4.0-1
++++ mingw-w64-clang-x86_64-ftgl 2.4.0-1
+-share/doc/ftgl/html/doxygen.png
+Only in mingw64: mingw-w64-gcc
+Only in mingw64: mingw-w64-gcc-ada
+Only in mingw64: mingw-w64-gcc-fortran
+Only in mingw64: mingw-w64-gcc-libgfortran
+Only in mingw64: mingw-w64-gcc-libs
+Only in mingw64: mingw-w64-gcc-objc
+Only in mingw64: mingw-w64-gdal
 diff mingw-w64-x86_64-gdk-pixbuf2 mingw-w64-clang-x86_64-gdk-pixbuf2
---- mingw-w64-x86_64-gdk-pixbuf2
-+++ mingw-w64-clang-x86_64-gdk-pixbuf2
+--- mingw-w64-x86_64-gdk-pixbuf2 2.42.6-1
++++ mingw-w64-clang-x86_64-gdk-pixbuf2 2.42.6-1
 +share/libalpm/hooks/mingw-w64-clang-x86_64-gdk-pixbuf-query-loaders.hook
 -share/libalpm/hooks/mingw-w64-x86_64-gdk-pixbuf-query-loaders.hook
-Only in mingw64: mingw-w64-gdlmm2-2.30.0-3
-Only in mingw64: mingw-w64-geany-1.37.1-2
-Only in mingw64: mingw-w64-geany-plugins-1.37.0-2
-Only in mingw64: mingw-w64-gedit-3.38.1-2
-Only in mingw64: mingw-w64-gedit-plugins-3.38.0-3
-Only in mingw64: mingw-w64-gegl-0.4.30-1
-Only in mingw64: mingw-w64-geoip-1.6.12-1
-Only in mingw64: mingw-w64-geoip2-database-20190624-1
-Only in mingw64: mingw-w64-ghdl-llvm-1.0.0.r517.g9262a810-1
-Only in mingw64: mingw-w64-gimp-2.10.24-3
-Only in mingw64: mingw-w64-gimp-ufraw-0.22-2
-Only in mingw64: mingw-w64-git-lfs-2.11.0-1
-Only in mingw64: mingw-w64-github-cli-1.13.1-1
+Only in mingw64: mingw-w64-gdlmm2
+Only in mingw64: mingw-w64-geany
+Only in mingw64: mingw-w64-geany-plugins
+Only in mingw64: mingw-w64-gegl
+Only in mingw64: mingw-w64-geoip
+Only in mingw64: mingw-w64-geoip2-database
+Only in mingw64: mingw-w64-ghdl-llvm
+Only in mingw64: mingw-w64-gimp
+Only in mingw64: mingw-w64-gimp-ufraw
+Only in mingw64: mingw-w64-git-lfs
 diff mingw-w64-x86_64-glib2 mingw-w64-clang-x86_64-glib2
---- mingw-w64-x86_64-glib2
-+++ mingw-w64-clang-x86_64-glib2
+--- mingw-w64-x86_64-glib2 2.68.4-1
++++ mingw-w64-clang-x86_64-glib2 2.68.4-1
 +share/libalpm/hooks/mingw-w64-clang-x86_64-gio-querymodules.hook
 +share/libalpm/hooks/mingw-w64-clang-x86_64-glib-compile-schemas.hook
 -share/libalpm/hooks/mingw-w64-x86_64-gio-querymodules.hook
 -share/libalpm/hooks/mingw-w64-x86_64-glib-compile-schemas.hook
-Only in mingw64: mingw-w64-globjects-1.1.0-1
-Only in mingw64: mingw-w64-gmic-2.9.7-2
-Only in mingw64: mingw-w64-gmsh-4.7.1-2
-Only in mingw64: mingw-w64-gnat_util-2020.0.0-1
-Only in mingw64: mingw-w64-gnatcoll-21.0.0-1
-Only in mingw64: mingw-w64-gnome-calculator-3.38.1-2
-Only in mingw64: mingw-w64-gnome-latex-3.38.0-2
-Only in mingw64: mingw-w64-gnucobol-3.1.2-1
-Only in mingw64: mingw-w64-gnuplot-5.4.1-1
+Only in mingw64: mingw-w64-globjects
+Only in mingw64: mingw-w64-gmic
+Only in mingw64: mingw-w64-gmsh
+Only in mingw64: mingw-w64-gnat_util
+Only in mingw64: mingw-w64-gnatcoll
+diff mingw-w64-x86_64-gnome-calculator mingw-w64-clang-x86_64-gnome-calculator
+--- mingw-w64-x86_64-gnome-calculator 3.38.1-3
++++ mingw-w64-clang-x86_64-gnome-calculator 3.38.1-3
+-share/devhelp/
+-share/devhelp/books/
+-share/devhelp/books/GCalc-2/
+-share/devhelp/books/GCalc-2/GCalc-2.devhelp2
+-share/devhelp/books/GCalc-2/GCalc.AssigError.INVALID_STRUCTURE_ERROR.html
+-share/devhelp/books/GCalc-2/GCalc.AssigError.html
+-share/devhelp/books/GCalc-2/GCalc.Assign.Assign.html
+-share/devhelp/books/GCalc-2/GCalc.Assign.html
+-share/devhelp/books/GCalc-2/GCalc.Constant.Constant.complex.html
+-share/devhelp/books/GCalc-2/GCalc.Constant.Constant.double.html
+-share/devhelp/books/GCalc-2/GCalc.Constant.Constant.html
+-share/devhelp/books/GCalc-2/GCalc.Constant.Constant.integer.html
+-share/devhelp/books/GCalc-2/GCalc.Constant.Constant.unsigned_integer.html
+-share/devhelp/books/GCalc-2/GCalc.Constant.html
+-share/devhelp/books/GCalc-2/GCalc.Division.Division.html
+-share/devhelp/books/GCalc-2/GCalc.Division.html
+-share/devhelp/books/GCalc-2/GCalc.Equation.Equation.html
+-share/devhelp/books/GCalc-2/GCalc.Equation.html
+-share/devhelp/books/GCalc-2/GCalc.EquationManager.EquationManager.html
+-share/devhelp/books/GCalc-2/GCalc.EquationManager.html
+-share/devhelp/books/GCalc-2/GCalc.ErrorExpression.ErrorExpression.html
+-share/devhelp/books/GCalc-2/GCalc.ErrorExpression.html
+-share/devhelp/books/GCalc-2/GCalc.ErrorResult.ErrorResult.html
+-share/devhelp/books/GCalc-2/GCalc.ErrorResult.expression.html
+-share/devhelp/books/GCalc-2/GCalc.ErrorResult.html
+-share/devhelp/books/GCalc-2/GCalc.ErrorResult.message.html
+-share/devhelp/books/GCalc-2/GCalc.ErrorResult.to_string.html
+-share/devhelp/books/GCalc-2/GCalc.Expression.Expression.html
+-share/devhelp/books/GCalc-2/GCalc.Expression.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionContainer.ExpressionContainer.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionContainer.add.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionContainer.find.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionContainer.find_named.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionContainer.get_item.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionContainer.get_item_type.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionContainer.get_n_items.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionContainer.get_object.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionContainer.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionContainer.parent.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionContainer.remove.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionContainer.remove_at.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionHashMap.ExpressionHashMap.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionHashMap.add.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionHashMap.find_named.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionHashMap.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionHashMap.parent.html
+-share/devhelp/books/GCalc-2/GCalc.ExpressionHashMap.remove.html
+-share/devhelp/books/GCalc-2/GCalc.Function.Function.html
+-share/devhelp/books/GCalc-2/GCalc.Function.Function.with_name.html
+-share/devhelp/books/GCalc-2/GCalc.Function.html
+-share/devhelp/books/GCalc-2/GCalc.Function.n_params.html
+-share/devhelp/books/GCalc-2/GCalc.Function.name.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionAcos.FunctionAcos.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionAcos.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionAcosh.FunctionAcosh.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionAcosh.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionAsin.FunctionAsin.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionAsin.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionAsinh.FunctionAsinh.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionAsinh.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionAtan.FunctionAtan.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionAtan.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionAtanh.FunctionAtanh.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionAtanh.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionCos.FunctionCos.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionCos.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionCosh.FunctionCosh.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionCosh.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionError.INVALID_PARAMETERS_ERROR.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionError.INVOCATION_ERROR.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionError.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionExp.FunctionExp.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionExp.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionLog.FunctionLog.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionLog.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionSin.FunctionSin.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionSin.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionSinh.FunctionSinh.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionSinh.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionSqrt.FunctionSqrt.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionSqrt.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionTan.FunctionTan.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionTan.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionTanh.FunctionTanh.html
+-share/devhelp/books/GCalc-2/GCalc.FunctionTanh.html
+-share/devhelp/books/GCalc-2/GCalc.Group.Group.html
+-share/devhelp/books/GCalc-2/GCalc.Group.html
+-share/devhelp/books/GCalc-2/GCalc.GroupError.INVALID_INTERNAL_TERM.html
+-share/devhelp/books/GCalc-2/GCalc.GroupError.INVALID_POLYNOMIAL.html
+-share/devhelp/books/GCalc-2/GCalc.GroupError.html
+-share/devhelp/books/GCalc-2/GCalc.Hashable.hash.html
+-share/devhelp/books/GCalc-2/GCalc.Hashable.html
+-share/devhelp/books/GCalc-2/GCalc.MathAssign.evaluate.html
+-share/devhelp/books/GCalc-2/GCalc.MathAssign.html
+-share/devhelp/books/GCalc-2/GCalc.MathBinaryOperator.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstant.add.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstant.divide.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstant.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstant.multiply.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstant.neg.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstant.pow.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstant.subtract.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstantComplex.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstantComplex.imag.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstantComplex.real.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstantComplex.zero.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstantNumber.html
+-share/devhelp/books/GCalc-2/GCalc.MathConstantNumber.value.html
+-share/devhelp/books/GCalc-2/GCalc.MathDivision.html
+-share/devhelp/books/GCalc-2/GCalc.MathEquation.html
+-share/devhelp/books/GCalc-2/GCalc.MathEquation.variables.html
+-share/devhelp/books/GCalc-2/GCalc.MathEquationManager.equations.html
+-share/devhelp/books/GCalc-2/GCalc.MathEquationManager.find_variable.html
+-share/devhelp/books/GCalc-2/GCalc.MathEquationManager.functions.html
+-share/devhelp/books/GCalc-2/GCalc.MathEquationManager.html
+-share/devhelp/books/GCalc-2/GCalc.MathErrorResult.html
+-share/devhelp/books/GCalc-2/GCalc.MathErrorResult.message.html
+-share/devhelp/books/GCalc-2/GCalc.MathExpression.expressions.html
+-share/devhelp/books/GCalc-2/GCalc.MathExpression.html
+-share/devhelp/books/GCalc-2/GCalc.MathExpression.parent.html
+-share/devhelp/books/GCalc-2/GCalc.MathExpression.solve.html
+-share/devhelp/books/GCalc-2/GCalc.MathExpression.to_string.html
+-share/devhelp/books/GCalc-2/GCalc.MathFunction.closed.html
+-share/devhelp/books/GCalc-2/GCalc.MathFunction.evaluate.html
+-share/devhelp/books/GCalc-2/GCalc.MathFunction.html
+-share/devhelp/books/GCalc-2/GCalc.MathFunction.n_params.html
+-share/devhelp/books/GCalc-2/GCalc.MathFunction.name.html
+-share/devhelp/books/GCalc-2/GCalc.MathFunction.param_types.html
+-share/devhelp/books/GCalc-2/GCalc.MathFunction.verify_params.html
+-share/devhelp/books/GCalc-2/GCalc.MathGroup.Level.ONE.html
+-share/devhelp/books/GCalc-2/GCalc.MathGroup.Level.THREE.html
+-share/devhelp/books/GCalc-2/GCalc.MathGroup.Level.TWO.html
+-share/devhelp/books/GCalc-2/GCalc.MathGroup.closed.html
+-share/devhelp/books/GCalc-2/GCalc.MathGroup.evaluate.html
+-share/devhelp/books/GCalc-2/GCalc.MathGroup.html
+-share/devhelp/books/GCalc-2/GCalc.MathGroup.level.html
+-share/devhelp/books/GCalc-2/GCalc.MathMinus.html
+-share/devhelp/books/GCalc-2/GCalc.MathMultiply.html
+-share/devhelp/books/GCalc-2/GCalc.MathOperator.html
+-share/devhelp/books/GCalc-2/GCalc.MathParameter.get_value.html
+-share/devhelp/books/GCalc-2/GCalc.MathParameter.html
+-share/devhelp/books/GCalc-2/GCalc.MathParameter.set_value.html
+-share/devhelp/books/GCalc-2/GCalc.MathPlus.html
+-share/devhelp/books/GCalc-2/GCalc.MathPolynomial.evaluate.html
+-share/devhelp/books/GCalc-2/GCalc.MathPolynomial.html
+-share/devhelp/books/GCalc-2/GCalc.MathPow.html
+-share/devhelp/books/GCalc-2/GCalc.MathResult.expression.html
+-share/devhelp/books/GCalc-2/GCalc.MathResult.html
+-share/devhelp/books/GCalc-2/GCalc.MathResult.to_string.html
+-share/devhelp/books/GCalc-2/GCalc.MathTerm.add.html
+-share/devhelp/books/GCalc-2/GCalc.MathTerm.evaluate.html
+-share/devhelp/books/GCalc-2/GCalc.MathTerm.evaluate_constants.html
+-share/devhelp/books/GCalc-2/GCalc.MathTerm.html
+-share/devhelp/books/GCalc-2/GCalc.MathVariable.bind.html
+-share/devhelp/books/GCalc-2/GCalc.MathVariable.binded.html
+-share/devhelp/books/GCalc-2/GCalc.MathVariable.evaluate.html
+-share/devhelp/books/GCalc-2/GCalc.MathVariable.html
+-share/devhelp/books/GCalc-2/GCalc.MathVariable.name.html
+-share/devhelp/books/GCalc-2/GCalc.MathVariable.value.html
+-share/devhelp/books/GCalc-2/GCalc.Minus.Minus.html
+-share/devhelp/books/GCalc-2/GCalc.Minus.html
+-share/devhelp/books/GCalc-2/GCalc.Multiply.Multiply.html
+-share/devhelp/books/GCalc-2/GCalc.Multiply.html
+-share/devhelp/books/GCalc-2/GCalc.Parameter.Parameter.html
+-share/devhelp/books/GCalc-2/GCalc.Parameter.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.Parser.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.ASSIGN.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.CARRET.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.CLOSE_BRACE.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.CLOSE_BRACKET.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.CLOSE_PARENS.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.COLON.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.COMMA.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.CURRENCY_SYMBOL.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.DIV.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.DOT.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.DOUBLE_COLON.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.ELLIPSIS.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.EOF.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.HASH.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.IDENTIFIER.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.INTEGER_LITERAL.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.INTERR.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.MINUS.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.NONE.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OPEN_BRACE.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OPEN_BRACKET.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OPEN_PARENS.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_AND.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_COALESCING.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_DEC.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_EQ.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_GE.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_GT.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_INC.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_LE.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_LT.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_NE.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_NEG.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_OR.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_PTR.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.OP_SHIFT_LEFT.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.PLUS.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.REAL_LITERAL.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.SEMICOLON.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.STAR.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.STRING_LITERAL.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.TILDE.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.TokenType.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.parse.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.read_token.html
+-share/devhelp/books/GCalc-2/GCalc.Parser.token_to_string.html
+-share/devhelp/books/GCalc-2/GCalc.ParserError.INVALID_EXPRESSION_ERROR.html
+-share/devhelp/books/GCalc-2/GCalc.ParserError.INVALID_TOKEN_ERROR.html
+-share/devhelp/books/GCalc-2/GCalc.ParserError.html
+-share/devhelp/books/GCalc-2/GCalc.Plus.Plus.html
+-share/devhelp/books/GCalc-2/GCalc.Plus.html
+-share/devhelp/books/GCalc-2/GCalc.Polynomial.Polynomial.html
+-share/devhelp/books/GCalc-2/GCalc.Polynomial.html
+-share/devhelp/books/GCalc-2/GCalc.Pow.Pow.html
+-share/devhelp/books/GCalc-2/GCalc.Pow.html
+-share/devhelp/books/GCalc-2/GCalc.Result.Result.html
+-share/devhelp/books/GCalc-2/GCalc.Result.html
+-share/devhelp/books/GCalc-2/GCalc.Solver.Solver.html
+-share/devhelp/books/GCalc-2/GCalc.Solver.add_expression.html
+-share/devhelp/books/GCalc-2/GCalc.Solver.equation_manager.html
+-share/devhelp/books/GCalc-2/GCalc.Solver.html
+-share/devhelp/books/GCalc-2/GCalc.Solver.solve.html
+-share/devhelp/books/GCalc-2/GCalc.SolverError.EXPRESSION_ERROR.html
+-share/devhelp/books/GCalc-2/GCalc.SolverError.html
+-share/devhelp/books/GCalc-2/GCalc.Term.Term.html
+-share/devhelp/books/GCalc-2/GCalc.Term.html
+-share/devhelp/books/GCalc-2/GCalc.TermError.EVALUATION_FAIL.html
+-share/devhelp/books/GCalc-2/GCalc.TermError.INVALID_OPERATOR.html
+-share/devhelp/books/GCalc-2/GCalc.TermError.html
+-share/devhelp/books/GCalc-2/GCalc.Variable.html
+-share/devhelp/books/GCalc-2/GCalc.Variable.name.html
+-share/devhelp/books/GCalc-2/GCalc.VariableError.EVALUATION_FAIL.html
+-share/devhelp/books/GCalc-2/GCalc.VariableError.INVALID_EXPRESSION_DEFINITION.html
+-share/devhelp/books/GCalc-2/GCalc.VariableError.INVALID_PARENT.html
+-share/devhelp/books/GCalc-2/GCalc.VariableError.html
+-share/devhelp/books/GCalc-2/GCalc.html
+-share/devhelp/books/GCalc-2/abstractclass.svg
+-share/devhelp/books/GCalc-2/abstractmethod.svg
+-share/devhelp/books/GCalc-2/abstractproperty.svg
+-share/devhelp/books/GCalc-2/class.svg
+-share/devhelp/books/GCalc-2/coll_close.svg
+-share/devhelp/books/GCalc-2/coll_open.svg
+-share/devhelp/books/GCalc-2/constant.svg
+-share/devhelp/books/GCalc-2/constructor.svg
+-share/devhelp/books/GCalc-2/delegate.svg
+-share/devhelp/books/GCalc-2/devhelpstyle.css
+-share/devhelp/books/GCalc-2/enum.svg
+-share/devhelp/books/GCalc-2/enumvalue.svg
+-share/devhelp/books/GCalc-2/errorcode.svg
+-share/devhelp/books/GCalc-2/errordomain.svg
+-share/devhelp/books/GCalc-2/field.svg
+-share/devhelp/books/GCalc-2/img/
+-share/devhelp/books/GCalc-2/img/GCalc.Assign.png
+-share/devhelp/books/GCalc-2/img/GCalc.Constant.png
+-share/devhelp/books/GCalc-2/img/GCalc.Division.png
+-share/devhelp/books/GCalc-2/img/GCalc.Equation.png
+-share/devhelp/books/GCalc-2/img/GCalc.EquationManager.png
+-share/devhelp/books/GCalc-2/img/GCalc.ErrorExpression.png
+-share/devhelp/books/GCalc-2/img/GCalc.ErrorResult.png
+-share/devhelp/books/GCalc-2/img/GCalc.Expression.png
+-share/devhelp/books/GCalc-2/img/GCalc.ExpressionContainer.png
+-share/devhelp/books/GCalc-2/img/GCalc.ExpressionHashMap.png
+-share/devhelp/books/GCalc-2/img/GCalc.Function.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionAcos.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionAcosh.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionAsin.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionAsinh.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionAtan.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionAtanh.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionCos.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionCosh.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionExp.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionLog.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionSin.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionSinh.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionSqrt.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionTan.png
+-share/devhelp/books/GCalc-2/img/GCalc.FunctionTanh.png
+-share/devhelp/books/GCalc-2/img/GCalc.Group.png
+-share/devhelp/books/GCalc-2/img/GCalc.Hashable.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathAssign.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathBinaryOperator.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathConstant.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathConstantComplex.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathConstantNumber.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathDivision.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathEquation.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathEquationManager.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathErrorResult.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathExpression.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathFunction.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathGroup.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathMinus.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathMultiply.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathOperator.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathParameter.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathPlus.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathPolynomial.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathPow.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathResult.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathTerm.png
+-share/devhelp/books/GCalc-2/img/GCalc.MathVariable.png
+-share/devhelp/books/GCalc-2/img/GCalc.Minus.png
+-share/devhelp/books/GCalc-2/img/GCalc.Multiply.png
+-share/devhelp/books/GCalc-2/img/GCalc.Parameter.png
+-share/devhelp/books/GCalc-2/img/GCalc.Parser.png
+-share/devhelp/books/GCalc-2/img/GCalc.Plus.png
+-share/devhelp/books/GCalc-2/img/GCalc.Polynomial.png
+-share/devhelp/books/GCalc-2/img/GCalc.Pow.png
+-share/devhelp/books/GCalc-2/img/GCalc.Result.png
+-share/devhelp/books/GCalc-2/img/GCalc.Solver.png
+-share/devhelp/books/GCalc-2/img/GCalc.Term.png
+-share/devhelp/books/GCalc-2/img/GCalc.Variable.png
+-share/devhelp/books/GCalc-2/index.htm
+-share/devhelp/books/GCalc-2/interface.svg
+-share/devhelp/books/GCalc-2/method.svg
+-share/devhelp/books/GCalc-2/namespace.svg
+-share/devhelp/books/GCalc-2/package.svg
+-share/devhelp/books/GCalc-2/packages.svg
+-share/devhelp/books/GCalc-2/property.svg
+-share/devhelp/books/GCalc-2/scripts.js
+-share/devhelp/books/GCalc-2/signal.svg
+-share/devhelp/books/GCalc-2/staticmethod.svg
+-share/devhelp/books/GCalc-2/struct.svg
+-share/devhelp/books/GCalc-2/style.css
+-share/devhelp/books/GCalc-2/tip.svg
+-share/devhelp/books/GCalc-2/virtualmethod.svg
+-share/devhelp/books/GCalc-2/virtualproperty.svg
+-share/devhelp/books/GCalc-2/warning.svg
+-share/devhelp/books/GCalc-2/wikistyle.css
+-share/devhelp/books/GCi-1/
+-share/devhelp/books/GCi-1/GCi-1.devhelp2
+-share/devhelp/books/GCi-1/GCi.EntryController.EntryController.for_entry.html
+-share/devhelp/books/GCi-1/GCi.EntryController.EntryController.html
+-share/devhelp/books/GCi-1/GCi.EntryController.entry.html
+-share/devhelp/books/GCi-1/GCi.EntryController.html
+-share/devhelp/books/GCi-1/GCi.html
+-share/devhelp/books/GCi-1/abstractclass.svg
+-share/devhelp/books/GCi-1/abstractmethod.svg
+-share/devhelp/books/GCi-1/abstractproperty.svg
+-share/devhelp/books/GCi-1/class.svg
+-share/devhelp/books/GCi-1/coll_close.svg
+-share/devhelp/books/GCi-1/coll_open.svg
+-share/devhelp/books/GCi-1/constant.svg
+-share/devhelp/books/GCi-1/constructor.svg
+-share/devhelp/books/GCi-1/delegate.svg
+-share/devhelp/books/GCi-1/devhelpstyle.css
+-share/devhelp/books/GCi-1/enum.svg
+-share/devhelp/books/GCi-1/enumvalue.svg
+-share/devhelp/books/GCi-1/errorcode.svg
+-share/devhelp/books/GCi-1/errordomain.svg
+-share/devhelp/books/GCi-1/field.svg
+-share/devhelp/books/GCi-1/img/
+-share/devhelp/books/GCi-1/img/GCi.EntryController.png
+-share/devhelp/books/GCi-1/index.htm
+-share/devhelp/books/GCi-1/interface.svg
+-share/devhelp/books/GCi-1/method.svg
+-share/devhelp/books/GCi-1/namespace.svg
+-share/devhelp/books/GCi-1/package.svg
+-share/devhelp/books/GCi-1/packages.svg
+-share/devhelp/books/GCi-1/property.svg
+-share/devhelp/books/GCi-1/scripts.js
+-share/devhelp/books/GCi-1/signal.svg
+-share/devhelp/books/GCi-1/staticmethod.svg
+-share/devhelp/books/GCi-1/struct.svg
+-share/devhelp/books/GCi-1/style.css
+-share/devhelp/books/GCi-1/tip.svg
+-share/devhelp/books/GCi-1/virtualmethod.svg
+-share/devhelp/books/GCi-1/virtualproperty.svg
+-share/devhelp/books/GCi-1/warning.svg
+-share/devhelp/books/GCi-1/wikistyle.css
+Only in mingw64: mingw-w64-gnuplot
 diff mingw-w64-x86_64-gobject-introspection mingw-w64-clang-x86_64-gobject-introspection
---- mingw-w64-x86_64-gobject-introspection
-+++ mingw-w64-clang-x86_64-gobject-introspection
+--- mingw-w64-x86_64-gobject-introspection 1.68.0-2
++++ mingw-w64-clang-x86_64-gobject-introspection 1.68.0-2
 -lib/gobject-introspection/giscanner/_giscanner.cp39-mingw_x86_64.dll.a
 -lib/gobject-introspection/giscanner/_giscanner.cp39-mingw_x86_64.pyd
 +lib/gobject-introspection/giscanner/_giscanner.cp39-mingw_x86_64_clang.dll.a
 +lib/gobject-introspection/giscanner/_giscanner.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-godot-3.3-1
-Only in mingw64: mingw-w64-goxel-0.10.7-1
+Only in mingw64: mingw-w64-godot
 diff mingw-w64-x86_64-gpgme mingw-w64-clang-x86_64-gpgme
---- mingw-w64-x86_64-gpgme
-+++ mingw-w64-clang-x86_64-gpgme
+--- mingw-w64-x86_64-gpgme 1.15.1-7
++++ mingw-w64-clang-x86_64-gpgme 1.15.1-7
 -lib/python3.9/site-packages/gpg/_gpgme.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/gpg/_gpgme.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-gphoto2-2.5.27-1
-Only in mingw64: mingw-w64-gplugin-0.29.0-3
-Only in mingw64: mingw-w64-gprbuild-2021.0.0-3
-Only in mingw64: mingw-w64-gprbuild-bootstrap-git-2021.0.0-1
-Only in mingw64: mingw-w64-grantlee-5.2.0-2
-Only in mingw64: mingw-w64-graphviz-2.44.1-6
-Only in mingw64: mingw-w64-groonga-11.0.2-1
+Only in mingw64: mingw-w64-gphoto2
+Only in mingw64: mingw-w64-gplugin
+Only in mingw64: mingw-w64-gprbuild
+Only in mingw64: mingw-w64-gprbuild-bootstrap-git
+diff mingw-w64-x86_64-groonga mingw-w64-clang-x86_64-groonga
+--- mingw-w64-x86_64-groonga 11.0.2-3
++++ mingw-w64-clang-x86_64-groonga 11.0.2-3
+-bin/libgroonga-0.dll
+-lib/groonga/plugins/functions/index_column.dll
+-lib/groonga/plugins/functions/index_column.dll.a
+-lib/groonga/plugins/functions/math.dll
+-lib/groonga/plugins/functions/math.dll.a
+-lib/groonga/plugins/functions/number.dll
+-lib/groonga/plugins/functions/number.dll.a
+-lib/groonga/plugins/functions/string.dll
+-lib/groonga/plugins/functions/string.dll.a
+-lib/groonga/plugins/functions/time.dll
+-lib/groonga/plugins/functions/time.dll.a
+-lib/groonga/plugins/functions/vector.dll
+-lib/groonga/plugins/functions/vector.dll.a
+-lib/groonga/plugins/query_expanders/tsv.dll
+-lib/groonga/plugins/query_expanders/tsv.dll.a
+-lib/groonga/plugins/suggest/suggest.dll
+-lib/groonga/plugins/suggest/suggest.dll.a
+-lib/groonga/plugins/token_filters/stop_word.dll
+-lib/groonga/plugins/token_filters/stop_word.dll.a
+-lib/groonga/plugins/tokenizers/mecab.dll
+-lib/groonga/plugins/tokenizers/mecab.dll.a
+-lib/libgroonga.dll.a
 diff mingw-w64-x86_64-grpc mingw-w64-clang-x86_64-grpc
---- mingw-w64-x86_64-grpc
-+++ mingw-w64-clang-x86_64-grpc
+--- mingw-w64-x86_64-grpc 1.35.0-5
++++ mingw-w64-clang-x86_64-grpc 1.35.0-5
 -bin/libabsl_bad_optional_access.dll
 -bin/libabsl_bad_variant_access.dll
 -bin/libabsl_base.dll
@@ -423,38 +814,46 @@ diff mingw-w64-x86_64-grpc mingw-w64-clang-x86_64-grpc
 -lib/libgrpcpp_channelz.dll.a
 +lib/libupb.a
 -lib/libupb.dll.a
-Only in mingw64: mingw-w64-gsasl-1.10.0-1
-Only in mingw64: mingw-w64-gst-plugins-bad-1.18.4-8
-Only in mingw64: mingw-w64-gst-plugins-bad-libs-1.18.4-8
+diff mingw-w64-x86_64-gst-plugins-bad mingw-w64-clang-x86_64-gst-plugins-bad
+--- mingw-w64-x86_64-gst-plugins-bad 1.18.4-11
++++ mingw-w64-clang-x86_64-gst-plugins-bad 1.18.4-11
+-bin/libgstopencv-1.0-0.dll
+-lib/gstreamer-1.0/libgstd3d11.dll
+-lib/gstreamer-1.0/libgstopencv.dll
+-lib/gstreamer-1.0/libgstzbar.dll
+diff mingw-w64-x86_64-gst-plugins-bad-libs mingw-w64-clang-x86_64-gst-plugins-bad-libs
+--- mingw-w64-x86_64-gst-plugins-bad-libs 1.18.4-11
++++ mingw-w64-clang-x86_64-gst-plugins-bad-libs 1.18.4-11
+-include/gstreamer-1.0/gst/opencv/
+-include/gstreamer-1.0/gst/opencv/gstopencvutils.h
+-include/gstreamer-1.0/gst/opencv/gstopencvvideofilter.h
+-include/gstreamer-1.0/gst/opencv/opencv-prelude.h
+-lib/libgstopencv-1.0.dll.a
 diff mingw-w64-x86_64-gst-python mingw-w64-clang-x86_64-gst-python
---- mingw-w64-x86_64-gst-python
-+++ mingw-w64-clang-x86_64-gst-python
+--- mingw-w64-x86_64-gst-python 1.18.4-2
++++ mingw-w64-clang-x86_64-gst-python 1.18.4-2
 -lib/python3.9/site-packages/gi/overrides/_gi_gst.cp39-mingw_x86_64.dll.a
 -lib/python3.9/site-packages/gi/overrides/_gi_gst.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/gi/overrides/_gi_gst.cp39-mingw_x86_64_clang.dll.a
 +lib/python3.9/site-packages/gi/overrides/_gi_gst.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-gst-rtsp-server-1.18.4-1
 diff mingw-w64-x86_64-gtk-update-icon-cache mingw-w64-clang-x86_64-gtk-update-icon-cache
---- mingw-w64-x86_64-gtk-update-icon-cache
-+++ mingw-w64-clang-x86_64-gtk-update-icon-cache
+--- mingw-w64-x86_64-gtk-update-icon-cache 3.24.30-3
++++ mingw-w64-clang-x86_64-gtk-update-icon-cache 3.24.30-3
 +share/libalpm/hooks/mingw-w64-clang-x86_64-gtk-update-icon-cache.hook
 -share/libalpm/hooks/mingw-w64-x86_64-gtk-update-icon-cache.hook
 +share/libalpm/scripts/mingw-w64-clang-x86_64-gtk-update-icon-cache.script
 -share/libalpm/scripts/mingw-w64-x86_64-gtk-update-icon-cache.script
 diff mingw-w64-x86_64-gtk3 mingw-w64-clang-x86_64-gtk3
---- mingw-w64-x86_64-gtk3
-+++ mingw-w64-clang-x86_64-gtk3
+--- mingw-w64-x86_64-gtk3 3.24.30-3
++++ mingw-w64-clang-x86_64-gtk3 3.24.30-3
 +share/libalpm/hooks/mingw-w64-clang-x86_64-gtk-query-immodules-3.0.hook
 -share/libalpm/hooks/mingw-w64-x86_64-gtk-query-immodules-3.0.hook
-Only in mingw64: mingw-w64-gtk4-4.2.1-2
-Only in mingw64: mingw-w64-gtkada-3.8.2-2
-Only in mingw64: mingw-w64-gtkimageview-1.6.4-4
-Only in mingw64: mingw-w64-gtkmm-4.0-4.2.0-2
-Only in mingw64: mingw-w64-gtksourceview5-5.0.0-1
-Only in mingw64: mingw-w64-gtksourceviewmm3-3.21.3-2
+Only in mingw64: mingw-w64-gtkada
+Only in mingw64: mingw-w64-gtkimageview
+Only in mingw64: mingw-w64-gtksourceviewmm3
 diff mingw-w64-x86_64-gtkspell mingw-w64-clang-x86_64-gtkspell
---- mingw-w64-x86_64-gtkspell
-+++ mingw-w64-clang-x86_64-gtkspell
+--- mingw-w64-x86_64-gtkspell 2.0.16-7
++++ mingw-w64-clang-x86_64-gtkspell 2.0.16-7
 -share/gtk-doc/
 -share/gtk-doc/html/
 -share/gtk-doc/html/gtkspell/
@@ -472,29 +871,29 @@ diff mingw-w64-x86_64-gtkspell mingw-w64-clang-x86_64-gtkspell
 -share/gtk-doc/html/gtkspell/tutorial.html
 -share/gtk-doc/html/gtkspell/up-insensitive.png
 -share/gtk-doc/html/gtkspell/up.png
-Only in mingw64: mingw-w64-hclient-git-233.8b17cf3-1
-Only in mingw64: mingw-w64-hdf4-4.2.15-3
-Only in mingw64: mingw-w64-hdf5-1.12.0-4
-Only in mingw64: mingw-w64-helics-2.7.1-1
+Only in mingw64: mingw-w64-hclient-git
+Only in mingw64: mingw-w64-hdf4
+Only in mingw64: mingw-w64-hdf5
+Only in mingw64: mingw-w64-helics
 diff mingw-w64-x86_64-hyphen mingw-w64-clang-x86_64-hyphen
---- mingw-w64-x86_64-hyphen
-+++ mingw-w64-clang-x86_64-hyphen
+--- mingw-w64-x86_64-hyphen 2.8.8-1
++++ mingw-w64-clang-x86_64-hyphen 2.8.8-1
 +share/licenses/mingw-w64-clang-x86_64-hyphen/
 +share/licenses/mingw-w64-clang-x86_64-hyphen/LICENSE
 -share/licenses/mingw-w64-x86_64-hyphen/
 -share/licenses/mingw-w64-x86_64-hyphen/LICENSE
-Only in mingw64: mingw-w64-ideviceinstaller-1.1.1-1
-Only in mingw64: mingw-w64-imagemagick-7.0.10.11-5
-Only in mingw64: mingw-w64-inkscape-1.1-2
-Only in mingw64: mingw-w64-intel-tbb-1~2020.2-2
-Only in mingw64: mingw-w64-irrlicht-1.8.4-1
-Only in mingw64: mingw-w64-itk-5.1.0-3
-Only in mingw64: mingw-w64-iverilog-1~11.0.r8912.6b127432-1
-Only in mingw64: mingw-w64-jo-1.4-1
-Only in mingw64: mingw-w64-julia-1.4.1-2
+Only in mingw64: mingw-w64-ideviceinstaller
+Only in mingw64: mingw-w64-imagemagick
+Only in mingw64: mingw-w64-inkscape
+Only in mingw64: mingw-w64-intel-tbb
+Only in mingw64: mingw-w64-irrlicht
+Only in mingw64: mingw-w64-itk
+Only in mingw64: mingw-w64-iverilog
+Only in mingw64: mingw-w64-jo
+Only in mingw64: mingw-w64-julia
 diff mingw-w64-x86_64-kate mingw-w64-clang-x86_64-kate
---- mingw-w64-x86_64-kate
-+++ mingw-w64-clang-x86_64-kate
+--- mingw-w64-x86_64-kate 20.08.2-1
++++ mingw-w64-clang-x86_64-kate 20.08.2-1
 -bin/data/doc/
 -bin/data/doc/HTML/
 -bin/data/doc/HTML/ca/
@@ -831,30 +1230,40 @@ diff mingw-w64-x86_64-kate mingw-w64-clang-x86_64-kate
 -share/man/uk/
 -share/man/uk/man1/
 -share/man/uk/man1/kate.1.gz
-Only in mingw64: mingw-w64-kdewebkit-qt5-5.75.0-1
-Only in mingw64: mingw-w64-kicad-5.1.10-3
-Only in mingw64: mingw-w64-kicad-footprints-5.1.10-3
-Only in mingw64: mingw-w64-kicad-meta-5.1.10-3
-Only in mingw64: mingw-w64-kicad-packages3D-5.1.10-3
-Only in mingw64: mingw-w64-kicad-symbols-5.1.10-3
-Only in mingw64: mingw-w64-kicad-templates-5.1.10-3
-Only in clang64: mingw-w64-kirigami2-qt5-5.75.0-1
-Only in mingw64: mingw-w64-kirigami2-qt5-5.83.0-1
-Only in mingw64: mingw-w64-kvazaar-2.0.0-1
-Only in mingw64: mingw-w64-langkit_support-21.0.0-1
-Only in mingw64: mingw-w64-lapack-3.9.0-2
-Only in mingw64: mingw-w64-libadalang-21.0.0-1
-Only in mingw64: mingw-w64-libavro-1.10.0-2
-diff mingw-w64-x86_64-libbotan mingw-w64-clang-x86_64-libbotan
---- mingw-w64-x86_64-libbotan
-+++ mingw-w64-clang-x86_64-libbotan
-+share/doc/botan-2.17.3/handbook/_static/underscore-1.12.0.js
--share/doc/botan-2.17.3/handbook/_static/underscore-1.3.1.js
-Only in mingw64: mingw-w64-libcello-git-2.1.0.301.da28eef-1
-Only in mingw64: mingw-w64-libchamplain-0.12.20-2
+Only in mingw64: mingw-w64-kicad
+Only in mingw64: mingw-w64-kicad-footprints
+Only in mingw64: mingw-w64-kicad-meta
+Only in mingw64: mingw-w64-kicad-packages3D
+Only in mingw64: mingw-w64-kicad-symbols
+Only in mingw64: mingw-w64-kicad-templates
+diff mingw-w64-x86_64-kirigami2-qt5 mingw-w64-clang-x86_64-kirigami2-qt5
+--- mingw-w64-x86_64-kirigami2-qt5 5.83.0-1
++++ mingw-w64-clang-x86_64-kirigami2-qt5 5.75.0-1
++bin/data/kdevappwizard/
++bin/data/kdevappwizard/templates/
++bin/data/kdevappwizard/templates/kirigami.tar.bz2
+-bin/data/locale/pa/
+-bin/data/locale/pa/LC_MESSAGES/
+-bin/data/locale/pa/LC_MESSAGES/libkirigami2plugin_qt.qm
+-share/qt5/qml/org/kde/kirigami.2/CheckableListItem.qml
+-share/qt5/qml/org/kde/kirigami.2/Hero.qml
++share/qt5/qml/org/kde/kirigami.2/Theme.qml
+-share/qt5/qml/org/kde/kirigami.2/kirigamiplugin.dll
++share/qt5/qml/org/kde/kirigami.2/libkirigamiplugin.dll
++share/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/ApplicationWindow.qml
+-share/qt5/qml/org/kde/kirigami.2/swipenavigator/PageTab.qml
+-share/qt5/qml/org/kde/kirigami.2/swipenavigator/TabViewLayout.qml
+-share/qt5/qml/org/kde/kirigami.2/swipenavigator/templates/
+-share/qt5/qml/org/kde/kirigami.2/swipenavigator/templates/PageTab.qml
+Only in mingw64: mingw-w64-kvazaar
+Only in mingw64: mingw-w64-langkit_support
+Only in mingw64: mingw-w64-lapack
+Only in mingw64: mingw-w64-libadalang
+Only in mingw64: mingw-w64-libcello-git
+Only in mingw64: mingw-w64-libchamplain
 diff mingw-w64-x86_64-libdatrie mingw-w64-clang-x86_64-libdatrie
---- mingw-w64-x86_64-libdatrie
-+++ mingw-w64-clang-x86_64-libdatrie
+--- mingw-w64-x86_64-libdatrie 0.2.12-1
++++ mingw-w64-clang-x86_64-libdatrie 0.2.12-1
 -share/doc/datrie/
 -share/doc/datrie/html/
 -share/doc/datrie/html/alpha-map_8h.html
@@ -898,45 +1307,25 @@ diff mingw-w64-x86_64-libdatrie mingw-w64-clang-x86_64-libdatrie
 -share/doc/datrie/html/tabs.css
 -share/doc/datrie/html/trie_8h.html
 -share/doc/datrie/html/triedefs_8h.html
-Only in mingw64: mingw-w64-libexodus-8.11-1
-Only in mingw64: mingw-w64-libgccjit-10.3.0-5
-Only in mingw64: mingw-w64-libgda-5.2.9-3
-Only in mingw64: mingw-w64-libglade-2.6.4-5
-Only in mingw64: mingw-w64-libgnomecanvas-2.30.3-3
-Only in mingw64: mingw-w64-libgphoto2-2.5.27-1
-Only in mingw64: mingw-w64-libgpr-21.0.0-1
-Only in mingw64: mingw-w64-libguess-1.2-3
-Only in mingw64: mingw-w64-libical-3.0.8-4
-Only in mingw64: mingw-w64-libjaylink-git-r175.cfccbc9-1
-Only in mingw64: mingw-w64-libkml-1.3.0-8
-Only in mingw64: mingw-w64-liblas-1.8.1-2
-Only in mingw64: mingw-w64-libmaxminddb-1.3.2-1
-Only in mingw64: mingw-w64-libmicrohttpd-0.9.72-2
-Only in mingw64: mingw-w64-libmicroutils-4.3.0-1
-Only in mingw64: mingw-w64-libmodbus-git-658.0e2f470-1
-diff mingw-w64-x86_64-libmongoose mingw-w64-clang-x86_64-libmongoose
---- mingw-w64-x86_64-libmongoose
-+++ mingw-w64-clang-x86_64-libmongoose
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_coap.h/struct_mg_coap_message.md
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_coap.h/struct_mg_coap_option.md
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_dns.h/
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_dns.h/intro.md
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_dns.h/mg_dns_copy_questions.md
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_dns.h/mg_dns_encode_name.md
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_dns.h/mg_dns_encode_record.md
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_dns.h/mg_dns_insert_header.md
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_dns.h/mg_dns_parse_record_data.md
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_dns.h/mg_dns_uncompress_name.md
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_dns.h/mg_parse_dns.md
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_dns.h/mg_send_dns_query.md
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_dns.h/mg_set_protocol_dns.md
-+share/libmongoose/doc/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/examples/mbed/mongoose/docs/c-api/mg_dns.h/struct_mg_dns_message.md
-Only in mingw64: mingw-w64-libmowgli-2.1.3-3
-Only in mingw64: mingw-w64-libopenmpt-modplug-0.8.9.0-2
-Only in mingw64: mingw-w64-libosmscout-1.0.1-1
+Only in mingw64: mingw-w64-libexodus
+Only in mingw64: mingw-w64-libgccjit
+Only in mingw64: mingw-w64-libgda
+Only in mingw64: mingw-w64-libgphoto2
+Only in mingw64: mingw-w64-libgpr
+Only in mingw64: mingw-w64-libguess
+Only in mingw64: mingw-w64-libjaylink-git
+Only in mingw64: mingw-w64-libkml
+Only in mingw64: mingw-w64-liblas
+Only in mingw64: mingw-w64-libmaxminddb
+Only in mingw64: mingw-w64-libmicrohttpd
+Only in mingw64: mingw-w64-libmicroutils
+Only in mingw64: mingw-w64-libmodbus-git
+Only in mingw64: mingw-w64-libmowgli
+Only in mingw64: mingw-w64-libopenmpt-modplug
+Only in mingw64: mingw-w64-libosmscout
 diff mingw-w64-x86_64-libpaper mingw-w64-clang-x86_64-libpaper
---- mingw-w64-x86_64-libpaper
-+++ mingw-w64-clang-x86_64-libpaper
+--- mingw-w64-x86_64-libpaper 1.1.28-1
++++ mingw-w64-clang-x86_64-libpaper 1.1.28-1
 +share/locale/ca/LC_MESSAGES/mingw-w64-clang-x86_64-libpaper.mo
 -share/locale/ca/LC_MESSAGES/mingw-w64-x86_64-libpaper.mo
 +share/locale/cs/LC_MESSAGES/mingw-w64-clang-x86_64-libpaper.mo
@@ -982,33 +1371,28 @@ diff mingw-w64-x86_64-libpaper mingw-w64-clang-x86_64-libpaper
 +share/locale/vi/LC_MESSAGES/mingw-w64-clang-x86_64-libpaper.mo
 -share/locale/vi/LC_MESSAGES/mingw-w64-x86_64-libpaper.mo
 diff mingw-w64-x86_64-libplist mingw-w64-clang-x86_64-libplist
---- mingw-w64-x86_64-libplist
-+++ mingw-w64-clang-x86_64-libplist
+--- mingw-w64-x86_64-libplist 2.2.0-3
++++ mingw-w64-clang-x86_64-libplist 2.2.0-3
 -lib/python3.9/site-packages/plist.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/plist.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-librasterlite2-1.1.0-1
-Only in mingw64: mingw-w64-libraw-0.20.2-2
-Only in mingw64: mingw-w64-librescl-0.3.3-1
-Only in mingw64: mingw-w64-libserdes-6.2.0-1
-Only in mingw64: mingw-w64-libspatialite-5.0.1-2
-Only in clang64: mingw-w64-libssp-7.3.0-1
-Only in mingw64: mingw-w64-libswift-1.0.0-2
-Only in mingw64: mingw-w64-libsynctex-2021.20210424-5
-Only in mingw64: mingw-w64-libuninameslist-20200413-1
-Only in mingw64: mingw-w64-libusb-win32-1.2.6.0-1
-Only in mingw64: mingw-w64-libvips-8.11.2-1
-Only in mingw64: mingw-w64-libvirt-glib-3.0.0-1
-Only in mingw64: mingw-w64-libvmime-git-r1183.fe5492ce-2
-Only in mingw64: mingw-w64-libxml++-3.2.2-4
-Only in mingw64: mingw-w64-libxml++2.6-2.42.0-4
-Only in mingw64: mingw-w64-lis-2.0.30-2
+Only in mingw64: mingw-w64-librasterlite2
+Only in mingw64: mingw-w64-libraw
+Only in mingw64: mingw-w64-librescl
+Only in clang64: mingw-w64-libssp
+Only in mingw64: mingw-w64-libswift
+Only in mingw64: mingw-w64-libuninameslist
+Only in mingw64: mingw-w64-libusb-win32
+Only in mingw64: mingw-w64-libvips
+Only in mingw64: mingw-w64-libvirt-glib
+Only in mingw64: mingw-w64-libvmime-git
+Only in mingw64: mingw-w64-lis
 diff mingw-w64-x86_64-lld mingw-w64-clang-x86_64-lld
---- mingw-w64-x86_64-lld
-+++ mingw-w64-clang-x86_64-lld
+--- mingw-w64-x86_64-lld 12.0.1-5
++++ mingw-w64-clang-x86_64-lld 12.0.1-5
 +bin/ld.exe
 diff mingw-w64-x86_64-llvm mingw-w64-clang-x86_64-llvm
---- mingw-w64-x86_64-llvm
-+++ mingw-w64-clang-x86_64-llvm
+--- mingw-w64-x86_64-llvm 12.0.1-5
++++ mingw-w64-clang-x86_64-llvm 12.0.1-5
 +bin/addr2line.exe
 +bin/ar.exe
 +bin/c++filt.exe
@@ -1023,45 +1407,42 @@ diff mingw-w64-x86_64-llvm mingw-w64-clang-x86_64-llvm
 +bin/strings.exe
 +bin/strip.exe
 +bin/windres.exe
-Only in mingw64: mingw-w64-magnum-integration-2020.06-1
-Only in mingw64: mingw-w64-manim-0.7.0-2
+Only in mingw64: mingw-w64-magnum-integration
+Only in mingw64: mingw-w64-manim
 diff mingw-w64-x86_64-mapbox-earcut mingw-w64-clang-x86_64-mapbox-earcut
---- mingw-w64-x86_64-mapbox-earcut
-+++ mingw-w64-clang-x86_64-mapbox-earcut
+--- mingw-w64-x86_64-mapbox-earcut 0.12.10-2
++++ mingw-w64-clang-x86_64-mapbox-earcut 0.12.10-2
 -lib/python3.9/site-packages/mapbox_earcut.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/mapbox_earcut.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-mathgl-2.4.4-4
-Only in mingw64: mingw-w64-matio-1.5.21-1
-Only in mingw64: mingw-w64-meanwhile-1.0.2-4
-Only in mingw64: mingw-w64-med-4.1.0-4
-Only in mingw64: mingw-w64-mesa-21.1.5-1
-Only in mingw64: mingw-w64-mhook-r7.a159eed-1
+Only in mingw64: mingw-w64-mathgl
+Only in mingw64: mingw-w64-matio
+Only in mingw64: mingw-w64-med
+Only in mingw64: mingw-w64-mesa
+Only in mingw64: mingw-w64-mhook
 diff mingw-w64-x86_64-miniupnpc mingw-w64-clang-x86_64-miniupnpc
---- mingw-w64-x86_64-miniupnpc
-+++ mingw-w64-clang-x86_64-miniupnpc
+--- mingw-w64-x86_64-miniupnpc 2.1.20201016-3
++++ mingw-w64-clang-x86_64-miniupnpc 2.1.20201016-3
 -lib/python3.9/site-packages/miniupnpc.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/miniupnpc.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-mlpack-1.0.12-2
-Only in mingw64: mingw-w64-mlt-6.24.0-4
-Only in mingw64: mingw-w64-moab-5.3.0-1
-Only in mingw64: mingw-w64-mono-6.4.0.198-2
-Only in mingw64: mingw-w64-mono-basic-4.8-1
-Only in mingw64: mingw-w64-mpv-0.33.1-1
-Only in mingw64: mingw-w64-mruby-2.1.2-1
-Only in mingw64: mingw-w64-mscgen-0.20-1
-Only in mingw64: mingw-w64-msmpi-10.1.1-4
-Only in mingw64: mingw-w64-msmtp-1.8.12-1
-Only in mingw64: mingw-w64-mumps-5.4.0-1
+Only in mingw64: mingw-w64-mlpack
+Only in mingw64: mingw-w64-mlt
+Only in mingw64: mingw-w64-moab
+Only in mingw64: mingw-w64-mono
+Only in mingw64: mingw-w64-mono-basic
+Only in mingw64: mingw-w64-mpv
+Only in mingw64: mingw-w64-mscgen
+Only in mingw64: mingw-w64-msmpi
+Only in mingw64: mingw-w64-mumps
 diff mingw-w64-x86_64-mypaint mingw-w64-clang-x86_64-mypaint
---- mingw-w64-x86_64-mypaint
-+++ mingw-w64-clang-x86_64-mypaint
+--- mingw-w64-x86_64-mypaint 2.0.0-6
++++ mingw-w64-clang-x86_64-mypaint 2.0.0-6
 -lib/mypaint/lib/_mypaintlib.cp39-mingw_x86_64.pyd
 +lib/mypaint/lib/_mypaintlib.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-nana-1.7.4-1
-Only in mingw64: mingw-w64-nanodbc-2.12.4-2
+Only in mingw64: mingw-w64-nana
+Only in mingw64: mingw-w64-nanodbc
 diff mingw-w64-x86_64-ncurses mingw-w64-clang-x86_64-ncurses
---- mingw-w64-x86_64-ncurses
-+++ mingw-w64-clang-x86_64-ncurses
+--- mingw-w64-x86_64-ncurses 6.2-3
++++ mingw-w64-clang-x86_64-ncurses 6.2-3
 +lib/pkgconfig/
 +lib/pkgconfig/formw.pc
 +lib/pkgconfig/menuw.pc
@@ -1074,182 +1455,237 @@ diff mingw-w64-x86_64-ncurses mingw-w64-clang-x86_64-ncurses
 -share/pkgconfig/ncurses++w.pc
 -share/pkgconfig/ncursesw.pc
 -share/pkgconfig/panelw.pc
-Only in mingw64: mingw-w64-netcdf-4.7.4-2
-Only in mingw64: mingw-w64-nextpnr-0.0.r3694.c6aa51a2-1
-Only in mingw64: mingw-w64-ngraph-gtk-6.09.03-1
-Only in mingw64: mingw-w64-nsis-3.06.1-1
-Only in mingw64: mingw-w64-nsis-nsisunz-1.0-2
-Only in mingw64: mingw-w64-nsync-1.24.0-1
-Only in mingw64: mingw-w64-nvidia-cg-toolkit-3.1-1
-Only in mingw64: mingw-w64-ocaml-4.11.1-2
-Only in mingw64: mingw-w64-ocaml-compiler-libs-4.11.1-2
-Only in mingw64: mingw-w64-oce-0.18.3-4
-Only in mingw64: mingw-w64-ode-0.16.2-1
-Only in mingw64: mingw-w64-ogitor-git-r816.cf42232-1
-Only in mingw64: mingw-w64-ogre3d-1.12.6-3
-Only in mingw64: mingw-w64-openblas-0.3.13-2
-Only in mingw64: mingw-w64-opencascade-7.5.2-1
-Only in mingw64: mingw-w64-opencl-icd-git-47.c7fda8b-1
-Only in mingw64: mingw-w64-opencollada-1.6.68-2
-Only in mingw64: mingw-w64-opencolorio-1.1.1-13
-Only in mingw64: mingw-w64-opencv-4.5.2-2
-Only in mingw64: mingw-w64-opengl-man-pages-20191114-1
-Only in mingw64: mingw-w64-openimagedenoise-1.1.0-2
-Only in mingw64: mingw-w64-openimageio-2.2.16.0-2
-Only in mingw64: mingw-w64-openldap-2.4.57-1
+Only in mingw64: mingw-w64-netcdf
+Only in mingw64: mingw-w64-nsis
+Only in mingw64: mingw-w64-nsis-nsisunz
+Only in mingw64: mingw-w64-nsync
+Only in mingw64: mingw-w64-nvidia-cg-toolkit
+Only in mingw64: mingw-w64-ocaml
+Only in mingw64: mingw-w64-ocaml-compiler-libs
+Only in mingw64: mingw-w64-oce
+Only in mingw64: mingw-w64-octave
+Only in mingw64: mingw-w64-ode
+Only in mingw64: mingw-w64-ogitor-git
+Only in mingw64: mingw-w64-ogre3d
+Only in mingw64: mingw-w64-openblas
+Only in mingw64: mingw-w64-opencascade
+Only in mingw64: mingw-w64-opencl-icd-git
+Only in mingw64: mingw-w64-opencollada
+diff mingw-w64-x86_64-opencolorio mingw-w64-clang-x86_64-opencolorio
+--- mingw-w64-x86_64-opencolorio 1.1.1-14
++++ mingw-w64-clang-x86_64-opencolorio 1.1.1-14
+-bin/ocioconvert.exe
+-bin/ociodisplay.exe
+-bin/ociolutimage.exe
+-lib/python3.9/site-packages/PyOpenColorIO.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PyOpenColorIO.cp39-mingw_x86_64_clang.pyd
+Only in mingw64: mingw-w64-opencv
+Only in mingw64: mingw-w64-opengl-man-pages
+Only in mingw64: mingw-w64-openimagedenoise
+Only in mingw64: mingw-w64-openimageio
+diff mingw-w64-x86_64-openldap mingw-w64-clang-x86_64-openldap
+--- mingw-w64-x86_64-openldap 2.4.57-2
++++ mingw-w64-clang-x86_64-openldap 2.4.57-2
+-bin/slapacl.exe
+-bin/slapadd.exe
+-bin/slapauth.exe
+-bin/slapcat.exe
+-bin/slapdn.exe
+-bin/slapindex.exe
+-bin/slappasswd.exe
+-bin/slapschema.exe
+-bin/slaptest.exe
+-etc/openldap/schema/
+-etc/openldap/schema/README
+-etc/openldap/schema/collective.ldif
+-etc/openldap/schema/collective.schema
+-etc/openldap/schema/corba.ldif
+-etc/openldap/schema/corba.schema
+-etc/openldap/schema/core.ldif
+-etc/openldap/schema/core.schema
+-etc/openldap/schema/cosine.ldif
+-etc/openldap/schema/cosine.schema
+-etc/openldap/schema/duaconf.ldif
+-etc/openldap/schema/duaconf.schema
+-etc/openldap/schema/dyngroup.ldif
+-etc/openldap/schema/dyngroup.schema
+-etc/openldap/schema/inetorgperson.ldif
+-etc/openldap/schema/inetorgperson.schema
+-etc/openldap/schema/java.ldif
+-etc/openldap/schema/java.schema
+-etc/openldap/schema/misc.ldif
+-etc/openldap/schema/misc.schema
+-etc/openldap/schema/nis.ldif
+-etc/openldap/schema/nis.schema
+-etc/openldap/schema/openldap.ldif
+-etc/openldap/schema/openldap.schema
+-etc/openldap/schema/pmi.ldif
+-etc/openldap/schema/pmi.schema
+-etc/openldap/schema/ppolicy.ldif
+-etc/openldap/schema/ppolicy.schema
+-etc/openldap/slapd.conf
+-etc/openldap/slapd.conf.default
+-etc/openldap/slapd.ldif
+-etc/openldap/slapd.ldif.default
+-lib/slapd.exe
+-var/
+-var/run/
 diff mingw-w64-x86_64-openmp mingw-w64-clang-x86_64-openmp
---- mingw-w64-x86_64-openmp
-+++ mingw-w64-clang-x86_64-openmp
+--- mingw-w64-x86_64-openmp 12.0.1-5
++++ mingw-w64-clang-x86_64-openmp 12.0.1-5
 -lib/clang/12.0.1/include/omp_lib.h
 -lib/clang/12.0.1/include/omp_lib.mod
 -lib/clang/12.0.1/include/omp_lib_kinds.mod
-Only in mingw64: mingw-w64-openocd-0.11.0-1
-Only in mingw64: mingw-w64-openscad-2021.01-2
-Only in mingw64: mingw-w64-openshadinglanguage-1.11.14.2-1
-Only in mingw64: mingw-w64-openvdb-8.0.0-3
-Only in mingw64: mingw-w64-osgQt-3.5.7-7
-Only in mingw64: mingw-w64-osgQt-debug-3.5.7-7
-Only in mingw64: mingw-w64-osgQtQuick-debug-git-2.0.0.r172-4
-Only in mingw64: mingw-w64-osgQtQuick-git-2.0.0.r172-4
-Only in mingw64: mingw-w64-osgbullet-debug-git-3.0.0.265-1
-Only in mingw64: mingw-w64-osgbullet-git-3.0.0.265-1
-Only in mingw64: mingw-w64-osgearth-2.10.1-1
-Only in mingw64: mingw-w64-osgearth-debug-2.10.1-1
-Only in mingw64: mingw-w64-osgocean-debug-git-1.0.1.r161-1
-Only in mingw64: mingw-w64-osgocean-git-1.0.1.r161-1
-Only in mingw64: mingw-w64-osgworks-debug-git-3.1.0.444-3
-Only in mingw64: mingw-w64-osgworks-git-3.1.0.444-3
-Only in mingw64: mingw-w64-osm-gps-map-1.1.0-3
-Only in mingw64: mingw-w64-parmetis-4.0.3-2
+Only in mingw64: mingw-w64-openocd
+Only in mingw64: mingw-w64-openscad
+Only in mingw64: mingw-w64-openshadinglanguage
+Only in mingw64: mingw-w64-openvdb
+Only in mingw64: mingw-w64-osgQt
+Only in mingw64: mingw-w64-osgQt-debug
+Only in mingw64: mingw-w64-osgQtQuick-debug-git
+Only in mingw64: mingw-w64-osgQtQuick-git
+Only in mingw64: mingw-w64-osgbullet-debug-git
+Only in mingw64: mingw-w64-osgbullet-git
+Only in mingw64: mingw-w64-osgearth
+Only in mingw64: mingw-w64-osgearth-debug
+Only in mingw64: mingw-w64-osgocean-debug-git
+Only in mingw64: mingw-w64-osgocean-git
+Only in mingw64: mingw-w64-osgworks-debug-git
+Only in mingw64: mingw-w64-osgworks-git
+diff mingw-w64-x86_64-osm-gps-map mingw-w64-clang-x86_64-osm-gps-map
+--- mingw-w64-x86_64-osm-gps-map 1.1.0-3
++++ mingw-w64-clang-x86_64-osm-gps-map 1.1.0-3
+-bin/
+-bin/libosmgpsmap-1.0-1.dll
+-lib/libosmgpsmap-1.0.dll.a
+Only in mingw64: mingw-w64-parmetis
 diff mingw-w64-x86_64-parsec mingw-w64-clang-x86_64-parsec
---- mingw-w64-x86_64-parsec
-+++ mingw-w64-clang-x86_64-parsec
+--- mingw-w64-x86_64-parsec 3.0.2012-2
++++ mingw-w64-clang-x86_64-parsec 3.0.2012-2
 -include/parsec_f08_interfaces.mod
-Only in mingw64: mingw-w64-pastix-6.2.1-2
+Only in mingw64: mingw-w64-pastix
 diff mingw-w64-x86_64-perl mingw-w64-clang-x86_64-perl
---- mingw-w64-x86_64-perl
-+++ mingw-w64-clang-x86_64-perl
+--- mingw-w64-x86_64-perl 5.32.1-4
++++ mingw-w64-clang-x86_64-perl 5.32.1-4
 +profile.d/z-perl-clang-x86_64.sh
 -profile.d/z-perl-x86_64.sh
-Only in mingw64: mingw-w64-petsc-3.15.2-2
-Only in mingw64: mingw-w64-petsc-build-3.15.2-2
-Only in mingw64: mingw-w64-pidgin-2.11.0-2
-Only in mingw64: mingw-w64-pinentry-1.1.0-2
-Only in mingw64: mingw-w64-plplot-5.15.0-7
-Only in mingw64: mingw-w64-poco-1.10.1-4
-Only in mingw64: mingw-w64-postgis-3.0.3-1
-Only in mingw64: mingw-w64-postgresql-13.1-1
-Only in mingw64: mingw-w64-precice-2.2.1-1
+Only in mingw64: mingw-w64-petsc
+Only in mingw64: mingw-w64-petsc-build
+Only in mingw64: mingw-w64-pidgin
+Only in mingw64: mingw-w64-plplot
+Only in mingw64: mingw-w64-poco
+Only in mingw64: mingw-w64-postgis
+Only in mingw64: mingw-w64-precice
 diff mingw-w64-x86_64-ptex mingw-w64-clang-x86_64-ptex
---- mingw-w64-x86_64-ptex
-+++ mingw-w64-clang-x86_64-ptex
+--- mingw-w64-x86_64-ptex 2.3.2-2
++++ mingw-w64-clang-x86_64-ptex 2.3.2-2
 -share/doc/Ptex/doxygen.png
 +share/doc/Ptex/doxygen.svg
-Only in mingw64: mingw-w64-purple-skypeweb-1.1-1
-Only in mingw64: mingw-w64-putty-0.73-1
-Only in mingw64: mingw-w64-putty-ssh-0.0-3
-Only in mingw64: mingw-w64-pygobject2-devel-2.28.7-3
+Only in mingw64: mingw-w64-purple-skypeweb
+Only in mingw64: mingw-w64-putty
+Only in mingw64: mingw-w64-putty-ssh
+Only in mingw64: mingw-w64-pygobject2-devel
 diff mingw-w64-x86_64-pyqt5-sip mingw-w64-clang-x86_64-pyqt5-sip
---- mingw-w64-x86_64-pyqt5-sip
-+++ mingw-w64-clang-x86_64-pyqt5-sip
+--- mingw-w64-x86_64-pyqt5-sip 12.9.0-2
++++ mingw-w64-clang-x86_64-pyqt5-sip 12.9.0-2
 -lib/python3.9/site-packages/PyQt5/sip.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/PyQt5/sip.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-pyside2-qt5 mingw-w64-clang-x86_64-pyside2-qt5
---- mingw-w64-x86_64-pyside2-qt5
-+++ mingw-w64-clang-x86_64-pyside2-qt5
+--- mingw-w64-x86_64-pyside2-qt5 5.15.2-7
++++ mingw-w64-clang-x86_64-pyside2-qt5 5.15.2-7
 -bin/libpyside2.cp39-mingw_x86_64.dll
 +bin/libpyside2.cp39-mingw_x86_64_clang.dll
 -lib/cmake/PySide2-5.15.2/PySide2Config.cp39-mingw_x86_64.cmake
 +lib/cmake/PySide2-5.15.2/PySide2Config.cp39-mingw_x86_64_clang.cmake
 -lib/libpyside2.cp39-mingw_x86_64.dll.a
 +lib/libpyside2.cp39-mingw_x86_64_clang.dll.a
--lib/python3.9/site-packages/PySide2/Qt3DAnimation.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/Qt3DAnimation.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/Qt3DCore.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/Qt3DCore.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/Qt3DExtras.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/Qt3DExtras.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/Qt3DInput.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/Qt3DInput.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/Qt3DLogic.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/Qt3DLogic.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/Qt3DRender.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/Qt3DRender.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtAxContainer.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtAxContainer.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtCharts.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtCharts.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtConcurrent.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtConcurrent.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtCore.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtCore.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtDataVisualization.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtDataVisualization.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtGui.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtGui.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtHelp.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtHelp.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtLocation.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtLocation.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtMultimedia.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtMultimedia.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtMultimediaWidgets.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtMultimediaWidgets.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtNetwork.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtNetwork.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtOpenGL.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtOpenGL.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtOpenGLFunctions.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtOpenGLFunctions.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtPositioning.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtPositioning.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtPrintSupport.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtPrintSupport.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtQml.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtQml.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtQuick.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtQuick.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtQuickControls2.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtQuickControls2.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtQuickWidgets.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtQuickWidgets.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtRemoteObjects.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtRemoteObjects.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtScript.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtScript.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtScriptTools.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtScriptTools.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtScxml.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtScxml.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtSensors.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtSensors.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtSerialPort.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtSerialPort.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtSql.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtSql.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtSvg.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtSvg.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtTest.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtTest.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtTextToSpeech.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtTextToSpeech.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtUiTools.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtUiTools.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtWebChannel.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtWebChannel.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtWebSockets.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtWebSockets.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtWidgets.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtWidgets.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtWinExtras.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtWinExtras.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtXml.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtXml.cp39-mingw_x86_64_clang.dll
--lib/python3.9/site-packages/PySide2/QtXmlPatterns.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/PySide2/QtXmlPatterns.cp39-mingw_x86_64_clang.dll
+-lib/python3.9/site-packages/PySide2/Qt3DAnimation.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/Qt3DAnimation.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/Qt3DCore.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/Qt3DCore.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/Qt3DExtras.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/Qt3DExtras.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/Qt3DInput.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/Qt3DInput.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/Qt3DLogic.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/Qt3DLogic.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/Qt3DRender.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/Qt3DRender.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtAxContainer.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtAxContainer.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtCharts.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtCharts.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtConcurrent.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtConcurrent.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtCore.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtCore.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtDataVisualization.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtDataVisualization.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtGui.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtGui.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtHelp.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtHelp.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtLocation.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtLocation.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtMultimedia.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtMultimedia.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtMultimediaWidgets.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtMultimediaWidgets.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtNetwork.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtNetwork.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtOpenGL.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtOpenGL.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtOpenGLFunctions.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtOpenGLFunctions.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtPositioning.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtPositioning.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtPrintSupport.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtPrintSupport.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtQml.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtQml.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtQuick.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtQuick.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtQuickControls2.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtQuickControls2.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtQuickWidgets.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtQuickWidgets.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtRemoteObjects.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtRemoteObjects.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtScript.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtScript.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtScriptTools.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtScriptTools.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtScxml.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtScxml.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtSensors.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtSensors.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtSerialPort.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtSerialPort.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtSql.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtSql.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtSvg.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtSvg.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtTest.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtTest.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtTextToSpeech.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtTextToSpeech.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtUiTools.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtUiTools.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtWebChannel.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtWebChannel.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtWebSockets.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtWebSockets.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtWidgets.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtWidgets.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtWinExtras.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtWinExtras.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtXml.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtXml.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PySide2/QtXmlPatterns.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PySide2/QtXmlPatterns.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python mingw-w64-clang-x86_64-python
---- mingw-w64-x86_64-python
-+++ mingw-w64-clang-x86_64-python
+--- mingw-w64-x86_64-python 3.9.6-4
++++ mingw-w64-clang-x86_64-python 3.9.6-4
 -lib/python3.9/lib-dynload/_asyncio.cp39-mingw_x86_64.pyd
 +lib/python3.9/lib-dynload/_asyncio.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/lib-dynload/_bisect.cp39-mingw_x86_64.pyd
@@ -1338,6 +1774,8 @@ diff mingw-w64-x86_64-python mingw-w64-clang-x86_64-python
 +lib/python3.9/lib-dynload/_testbuffer.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/lib-dynload/_testcapi.cp39-mingw_x86_64.pyd
 +lib/python3.9/lib-dynload/_testcapi.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/lib-dynload/_testconsole.cp39-mingw_x86_64.pyd
++lib/python3.9/lib-dynload/_testconsole.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/lib-dynload/_testimportmultiple.cp39-mingw_x86_64.pyd
 +lib/python3.9/lib-dynload/_testimportmultiple.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/lib-dynload/_testinternalcapi.cp39-mingw_x86_64.pyd
@@ -1379,8 +1817,8 @@ diff mingw-w64-x86_64-python mingw-w64-clang-x86_64-python
 -lib/python3.9/lib-dynload/zlib.cp39-mingw_x86_64.pyd
 +lib/python3.9/lib-dynload/zlib.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-aiohttp mingw-w64-clang-x86_64-python-aiohttp
---- mingw-w64-x86_64-python-aiohttp
-+++ mingw-w64-clang-x86_64-python-aiohttp
+--- mingw-w64-x86_64-python-aiohttp 3.7.4.post0-2
++++ mingw-w64-clang-x86_64-python-aiohttp 3.7.4.post0-2
 -lib/python3.9/site-packages/aiohttp/_frozenlist.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/aiohttp/_frozenlist.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/aiohttp/_helpers.cp39-mingw_x86_64.pyd
@@ -1392,8 +1830,8 @@ diff mingw-w64-x86_64-python-aiohttp mingw-w64-clang-x86_64-python-aiohttp
 -lib/python3.9/site-packages/aiohttp/_websocket.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/aiohttp/_websocket.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-biopython mingw-w64-clang-x86_64-python-biopython
---- mingw-w64-x86_64-python-biopython
-+++ mingw-w64-clang-x86_64-python-biopython
+--- mingw-w64-x86_64-python-biopython 1.79-2
++++ mingw-w64-clang-x86_64-python-biopython 1.79-2
 -lib/python3.9/site-packages/Bio/Align/_aligners.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/Bio/Align/_aligners.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/Bio/Cluster/_cluster.cp39-mingw_x86_64.pyd
@@ -1411,63 +1849,76 @@ diff mingw-w64-x86_64-python-biopython mingw-w64-clang-x86_64-python-biopython
 -lib/python3.9/site-packages/Bio/motifs/_pwm.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/Bio/motifs/_pwm.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-biscuits mingw-w64-clang-x86_64-python-biscuits
---- mingw-w64-x86_64-python-biscuits
-+++ mingw-w64-clang-x86_64-python-biscuits
+--- mingw-w64-x86_64-python-biscuits 0.3.0-3
++++ mingw-w64-clang-x86_64-python-biscuits 0.3.0-3
 -lib/python3.9/site-packages/biscuits.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/biscuits.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-brotli mingw-w64-clang-x86_64-python-brotli
---- mingw-w64-x86_64-python-brotli
-+++ mingw-w64-clang-x86_64-python-brotli
+--- mingw-w64-x86_64-python-brotli 1.0.9-3
++++ mingw-w64-clang-x86_64-python-brotli 1.0.9-3
 -lib/python3.9/site-packages/_brotli.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/_brotli.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-bsddb3-6.2.9-2
+diff mingw-w64-x86_64-python-bsddb3 mingw-w64-clang-x86_64-python-bsddb3
+--- mingw-w64-x86_64-python-bsddb3 6.2.9-2
++++ mingw-w64-clang-x86_64-python-bsddb3 6.2.9-2
+-lib/python3.9/site-packages/bsddb3/_pybsddb.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/bsddb3/_pybsddb.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-cairo mingw-w64-clang-x86_64-python-cairo
---- mingw-w64-x86_64-python-cairo
-+++ mingw-w64-clang-x86_64-python-cairo
+--- mingw-w64-x86_64-python-cairo 1.20.0-2
++++ mingw-w64-clang-x86_64-python-cairo 1.20.0-2
 -lib/python3.9/site-packages/cairo/_cairo.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/cairo/_cairo.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-cffi mingw-w64-clang-x86_64-python-cffi
---- mingw-w64-x86_64-python-cffi
-+++ mingw-w64-clang-x86_64-python-cffi
+--- mingw-w64-x86_64-python-cffi 1.14.5-3
++++ mingw-w64-clang-x86_64-python-cffi 1.14.5-3
 -lib/python3.9/site-packages/_cffi_backend.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/_cffi_backend.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-colour-science-0.3.16-2
+Only in mingw64: mingw-w64-python-colour-science
 diff mingw-w64-x86_64-python-coverage mingw-w64-clang-x86_64-python-coverage
---- mingw-w64-x86_64-python-coverage
-+++ mingw-w64-clang-x86_64-python-coverage
+--- mingw-w64-x86_64-python-coverage 5.5-3
++++ mingw-w64-clang-x86_64-python-coverage 5.5-3
 -lib/python3.9/site-packages/coverage/tracer.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/coverage/tracer.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-crcmod mingw-w64-clang-x86_64-python-crcmod
---- mingw-w64-x86_64-python-crcmod
-+++ mingw-w64-clang-x86_64-python-crcmod
+--- mingw-w64-x86_64-python-crcmod 1.7-2
++++ mingw-w64-clang-x86_64-python-crcmod 1.7-2
 -lib/python3.9/site-packages/crcmod/_crcfunext.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/crcmod/_crcfunext.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-cryptography mingw-w64-clang-x86_64-python-cryptography
---- mingw-w64-x86_64-python-cryptography
-+++ mingw-w64-clang-x86_64-python-cryptography
+--- mingw-w64-x86_64-python-cryptography 3.4.7-2
++++ mingw-w64-clang-x86_64-python-cryptography 3.4.7-2
 -lib/python3.9/site-packages/cryptography/hazmat/bindings/_rust.pyd
-Only in mingw64: mingw-w64-python-cvxopt-1.2.6-2
-Only in mingw64: mingw-w64-python-cx-freeze-6.7-2
+Only in mingw64: mingw-w64-python-cvxopt
+diff mingw-w64-x86_64-python-cx-freeze mingw-w64-clang-x86_64-python-cx-freeze
+--- mingw-w64-x86_64-python-cx-freeze 6.7-4
++++ mingw-w64-clang-x86_64-python-cx-freeze 6.7-4
+-lib/python3.9/site-packages/cx_Freeze/bases/Console-cp39-mingw_x86_64.exe
++lib/python3.9/site-packages/cx_Freeze/bases/Console-cp39-mingw_x86_64_clang.exe
+-lib/python3.9/site-packages/cx_Freeze/bases/Win32GUI-cp39-mingw_x86_64.exe
++lib/python3.9/site-packages/cx_Freeze/bases/Win32GUI-cp39-mingw_x86_64_clang.exe
+-lib/python3.9/site-packages/cx_Freeze/bases/Win32Service-cp39-mingw_x86_64.exe
++lib/python3.9/site-packages/cx_Freeze/bases/Win32Service-cp39-mingw_x86_64_clang.exe
+-lib/python3.9/site-packages/cx_Freeze/util.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/cx_Freeze/util.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-cx-logging mingw-w64-clang-x86_64-python-cx-logging
---- mingw-w64-x86_64-python-cx-logging
-+++ mingw-w64-clang-x86_64-python-cx-logging
+--- mingw-w64-x86_64-python-cx-logging 3.0-4
++++ mingw-w64-clang-x86_64-python-cx-logging 3.0-4
 -lib/python3.9/site-packages/cx_Logging.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/cx_Logging.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-django-3.0.5-3
-Only in mingw64: mingw-w64-python-dlib-19.21-3
+Only in mingw64: mingw-w64-python-dlib
 diff mingw-w64-x86_64-python-glcontext mingw-w64-clang-x86_64-python-glcontext
---- mingw-w64-x86_64-python-glcontext
-+++ mingw-w64-clang-x86_64-python-glcontext
+--- mingw-w64-x86_64-python-glcontext 2.3.4-1
++++ mingw-w64-clang-x86_64-python-glcontext 2.3.4-1
 -lib/python3.9/site-packages/glcontext/wgl.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/glcontext/wgl.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-gmpy2 mingw-w64-clang-x86_64-python-gmpy2
---- mingw-w64-x86_64-python-gmpy2
-+++ mingw-w64-clang-x86_64-python-gmpy2
+--- mingw-w64-x86_64-python-gmpy2 2.1.0b4-4
++++ mingw-w64-clang-x86_64-python-gmpy2 2.1.0b4-4
 -lib/python3.9/site-packages/gmpy2/gmpy2.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/gmpy2/gmpy2.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-gobject mingw-w64-clang-x86_64-python-gobject
---- mingw-w64-x86_64-python-gobject
-+++ mingw-w64-clang-x86_64-python-gobject
+--- mingw-w64-x86_64-python-gobject 3.40.1-2
++++ mingw-w64-clang-x86_64-python-gobject 3.40.1-2
 -lib/python3.9/site-packages/gi/_gi.cp39-mingw_x86_64.dll.a
 -lib/python3.9/site-packages/gi/_gi.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/gi/_gi.cp39-mingw_x86_64_clang.dll.a
@@ -1477,8 +1928,8 @@ diff mingw-w64-x86_64-python-gobject mingw-w64-clang-x86_64-python-gobject
 +lib/python3.9/site-packages/gi/_gi_cairo.cp39-mingw_x86_64_clang.dll.a
 +lib/python3.9/site-packages/gi/_gi_cairo.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-greenlet mingw-w64-clang-x86_64-python-greenlet
---- mingw-w64-x86_64-python-greenlet
-+++ mingw-w64-clang-x86_64-python-greenlet
+--- mingw-w64-x86_64-python-greenlet 1.0.0-2
++++ mingw-w64-clang-x86_64-python-greenlet 1.0.0-2
 -lib/python3.9/site-packages/greenlet/_greenlet.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/greenlet/_greenlet.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/greenlet/tests/_test_extension.cp39-mingw_x86_64.pyd
@@ -1486,8 +1937,8 @@ diff mingw-w64-x86_64-python-greenlet mingw-w64-clang-x86_64-python-greenlet
 -lib/python3.9/site-packages/greenlet/tests/_test_extension_cpp.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/greenlet/tests/_test_extension_cpp.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-gssapi mingw-w64-clang-x86_64-python-gssapi
---- mingw-w64-x86_64-python-gssapi
-+++ mingw-w64-clang-x86_64-python-gssapi
+--- mingw-w64-x86_64-python-gssapi 1.6.5-2
++++ mingw-w64-clang-x86_64-python-gssapi 1.6.5-2
 -lib/python3.9/site-packages/gssapi/raw/chan_bindings.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/gssapi/raw/chan_bindings.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/gssapi/raw/creds.cp39-mingw_x86_64.pyd
@@ -1512,11 +1963,11 @@ diff mingw-w64-x86_64-python-gssapi mingw-w64-clang-x86_64-python-gssapi
 +lib/python3.9/site-packages/gssapi/raw/sec_contexts.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/gssapi/raw/types.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/gssapi/raw/types.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-gym-0.18.3-2
-Only in mingw64: mingw-w64-python-h5py-3.3.0-3
+Only in mingw64: mingw-w64-python-gym
+Only in mingw64: mingw-w64-python-h5py
 diff mingw-w64-x86_64-python-hunter mingw-w64-clang-x86_64-python-hunter
---- mingw-w64-x86_64-python-hunter
-+++ mingw-w64-clang-x86_64-python-hunter
+--- mingw-w64-x86_64-python-hunter 3.1.3-2
++++ mingw-w64-clang-x86_64-python-hunter 3.1.3-2
 -lib/python3.9/site-packages/hunter/_event.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/hunter/_event.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/hunter/_predicates.cp39-mingw_x86_64.pyd
@@ -1524,13 +1975,13 @@ diff mingw-w64-x86_64-python-hunter mingw-w64-clang-x86_64-python-hunter
 -lib/python3.9/site-packages/hunter/_tracer.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/hunter/_tracer.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-icu mingw-w64-clang-x86_64-python-icu
---- mingw-w64-x86_64-python-icu
-+++ mingw-w64-clang-x86_64-python-icu
+--- mingw-w64-x86_64-python-icu 2.7.3-3
++++ mingw-w64-clang-x86_64-python-icu 2.7.3-3
 -lib/python3.9/site-packages/_icu.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/_icu.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-imagecodecs mingw-w64-clang-x86_64-python-imagecodecs
---- mingw-w64-x86_64-python-imagecodecs
-+++ mingw-w64-clang-x86_64-python-imagecodecs
+--- mingw-w64-x86_64-python-imagecodecs 2021.7.30-1
++++ mingw-w64-clang-x86_64-python-imagecodecs 2021.7.30-1
 -lib/python3.9/site-packages/imagecodecs/_aec.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/imagecodecs/_aec.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/imagecodecs/_avif.cp39-mingw_x86_64.pyd
@@ -1589,34 +2040,38 @@ diff mingw-w64-x86_64-python-imagecodecs mingw-w64-clang-x86_64-python-imagecode
 +lib/python3.9/site-packages/imagecodecs/_zopfli.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/imagecodecs/_zstd.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/imagecodecs/_zstd.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-imbalanced-learn-0.6.1-2
-Only in mingw64: mingw-w64-python-keras-2.3.1-2
-Only in mingw64: mingw-w64-python-keras_applications-1.0.8-2
+Only in mingw64: mingw-w64-python-imbalanced-learn
+Only in mingw64: mingw-w64-python-keras
+Only in mingw64: mingw-w64-python-keras_applications
 diff mingw-w64-x86_64-python-kiwisolver mingw-w64-clang-x86_64-python-kiwisolver
---- mingw-w64-x86_64-python-kiwisolver
-+++ mingw-w64-clang-x86_64-python-kiwisolver
+--- mingw-w64-x86_64-python-kiwisolver 1.1.0-2
++++ mingw-w64-clang-x86_64-python-kiwisolver 1.1.0-2
 -lib/python3.9/site-packages/kiwisolver.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/kiwisolver.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-lazy-object-proxy mingw-w64-clang-x86_64-python-lazy-object-proxy
---- mingw-w64-x86_64-python-lazy-object-proxy
-+++ mingw-w64-clang-x86_64-python-lazy-object-proxy
+--- mingw-w64-x86_64-python-lazy-object-proxy 1.6.0-2
++++ mingw-w64-clang-x86_64-python-lazy-object-proxy 1.6.0-2
 -lib/python3.9/site-packages/lazy_object_proxy/cext.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/lazy_object_proxy/cext.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-ldap-3.2.0-2
+diff mingw-w64-x86_64-python-ldap mingw-w64-clang-x86_64-python-ldap
+--- mingw-w64-x86_64-python-ldap 3.2.0-2
++++ mingw-w64-clang-x86_64-python-ldap 3.2.0-2
+-lib/python3.9/site-packages/_ldap.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/_ldap.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-lhafile mingw-w64-clang-x86_64-python-lhafile
---- mingw-w64-x86_64-python-lhafile
-+++ mingw-w64-clang-x86_64-python-lhafile
+--- mingw-w64-x86_64-python-lhafile 0.2.2-2
++++ mingw-w64-clang-x86_64-python-lhafile 0.2.2-2
 -lib/python3.9/site-packages/lzhlib.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/lzhlib.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-librosa-0.8.1-2
+Only in mingw64: mingw-w64-python-librosa
 diff mingw-w64-x86_64-python-lws mingw-w64-clang-x86_64-python-lws
---- mingw-w64-x86_64-python-lws
-+++ mingw-w64-clang-x86_64-python-lws
+--- mingw-w64-x86_64-python-lws 1.2.7-3
++++ mingw-w64-clang-x86_64-python-lws 1.2.7-3
 -lib/python3.9/site-packages/lws.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/lws.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-lxml mingw-w64-clang-x86_64-python-lxml
---- mingw-w64-x86_64-python-lxml
-+++ mingw-w64-clang-x86_64-python-lxml
+--- mingw-w64-x86_64-python-lxml 4.6.2-2
++++ mingw-w64-clang-x86_64-python-lxml 4.6.2-2
 -lib/python3.9/site-packages/lxml/_elementpath.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/lxml/_elementpath.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/lxml/builder.cp39-mingw_x86_64.pyd
@@ -1632,8 +2087,8 @@ diff mingw-w64-x86_64-python-lxml mingw-w64-clang-x86_64-python-lxml
 -lib/python3.9/site-packages/lxml/sax.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/lxml/sax.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-lz4 mingw-w64-clang-x86_64-python-lz4
---- mingw-w64-x86_64-python-lz4
-+++ mingw-w64-clang-x86_64-python-lz4
+--- mingw-w64-x86_64-python-lz4 2.2.1-3
++++ mingw-w64-clang-x86_64-python-lz4 2.2.1-3
 -lib/python3.9/site-packages/lz4/_version.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/lz4/_version.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/lz4/block/_block.cp39-mingw_x86_64.pyd
@@ -1641,13 +2096,13 @@ diff mingw-w64-x86_64-python-lz4 mingw-w64-clang-x86_64-python-lz4
 -lib/python3.9/site-packages/lz4/frame/_frame.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/lz4/frame/_frame.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-lzo mingw-w64-clang-x86_64-python-lzo
---- mingw-w64-x86_64-python-lzo
-+++ mingw-w64-clang-x86_64-python-lzo
+--- mingw-w64-x86_64-python-lzo 1.12-3
++++ mingw-w64-clang-x86_64-python-lzo 1.12-3
 -lib/python3.9/site-packages/lzo.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/lzo.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-manimpango mingw-w64-clang-x86_64-python-manimpango
---- mingw-w64-x86_64-python-manimpango
-+++ mingw-w64-clang-x86_64-python-manimpango
+--- mingw-w64-x86_64-python-manimpango 0.3.0-2
++++ mingw-w64-clang-x86_64-python-manimpango 0.3.0-2
 -lib/python3.9/site-packages/manimpango/cmanimpango.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/manimpango/cmanimpango.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/manimpango/enums.cp39-mingw_x86_64.pyd
@@ -1655,13 +2110,13 @@ diff mingw-w64-x86_64-python-manimpango mingw-w64-clang-x86_64-python-manimpango
 -lib/python3.9/site-packages/manimpango/register_font.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/manimpango/register_font.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-markupsafe mingw-w64-clang-x86_64-python-markupsafe
---- mingw-w64-x86_64-python-markupsafe
-+++ mingw-w64-clang-x86_64-python-markupsafe
+--- mingw-w64-x86_64-python-markupsafe 2.0.1-2
++++ mingw-w64-clang-x86_64-python-markupsafe 2.0.1-2
 -lib/python3.9/site-packages/markupsafe/_speedups.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/markupsafe/_speedups.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-matplotlib mingw-w64-clang-x86_64-python-matplotlib
---- mingw-w64-x86_64-python-matplotlib
-+++ mingw-w64-clang-x86_64-python-matplotlib
+--- mingw-w64-x86_64-python-matplotlib 3.3.4-4
++++ mingw-w64-clang-x86_64-python-matplotlib 3.3.4-4
 -lib/python3.9/site-packages/matplotlib/_contour.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/matplotlib/_contour.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/matplotlib/_image.cp39-mingw_x86_64.pyd
@@ -1681,23 +2136,23 @@ diff mingw-w64-x86_64-python-matplotlib mingw-w64-clang-x86_64-python-matplotlib
 -lib/python3.9/site-packages/matplotlib/ft2font.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/matplotlib/ft2font.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-moderngl mingw-w64-clang-x86_64-python-moderngl
---- mingw-w64-x86_64-python-moderngl
-+++ mingw-w64-clang-x86_64-python-moderngl
+--- mingw-w64-x86_64-python-moderngl 5.6.4-2
++++ mingw-w64-clang-x86_64-python-moderngl 5.6.4-2
 -lib/python3.9/site-packages/moderngl/mgl.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/moderngl/mgl.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-multidict mingw-w64-clang-x86_64-python-multidict
---- mingw-w64-x86_64-python-multidict
-+++ mingw-w64-clang-x86_64-python-multidict
+--- mingw-w64-x86_64-python-multidict 5.1.0-2
++++ mingw-w64-clang-x86_64-python-multidict 5.1.0-2
 -lib/python3.9/site-packages/multidict/_multidict.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/multidict/_multidict.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-netifaces mingw-w64-clang-x86_64-python-netifaces
---- mingw-w64-x86_64-python-netifaces
-+++ mingw-w64-clang-x86_64-python-netifaces
+--- mingw-w64-x86_64-python-netifaces 0.10.9-2
++++ mingw-w64-clang-x86_64-python-netifaces 0.10.9-2
 -lib/python3.9/site-packages/netifaces.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/netifaces.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-numba mingw-w64-clang-x86_64-python-numba
---- mingw-w64-x86_64-python-numba
-+++ mingw-w64-clang-x86_64-python-numba
+--- mingw-w64-x86_64-python-numba 0.53.1-3
++++ mingw-w64-clang-x86_64-python-numba 0.53.1-3
 -lib/python3.9/site-packages/numba/_devicearray.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/numba/_devicearray.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/numba/_dispatcher.cp39-mingw_x86_64.pyd
@@ -1725,13 +2180,13 @@ diff mingw-w64-x86_64-python-numba mingw-w64-clang-x86_64-python-numba
 -lib/python3.9/site-packages/numba/np/ufunc/workqueue.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/numba/np/ufunc/workqueue.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-numexpr mingw-w64-clang-x86_64-python-numexpr
---- mingw-w64-x86_64-python-numexpr
-+++ mingw-w64-clang-x86_64-python-numexpr
+--- mingw-w64-x86_64-python-numexpr 2.7.3-3
++++ mingw-w64-clang-x86_64-python-numexpr 2.7.3-3
 -lib/python3.9/site-packages/numexpr/interpreter.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/numexpr/interpreter.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-numpy mingw-w64-clang-x86_64-python-numpy
---- mingw-w64-x86_64-python-numpy
-+++ mingw-w64-clang-x86_64-python-numpy
+--- mingw-w64-x86_64-python-numpy 1.21.0-4
++++ mingw-w64-clang-x86_64-python-numpy 1.21.0-4
 -lib/python3.9/site-packages/numpy/core/_multiarray_tests.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/numpy/core/_multiarray_tests.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/numpy/core/_multiarray_umath.cp39-mingw_x86_64.pyd
@@ -1770,10 +2225,10 @@ diff mingw-w64-x86_64-python-numpy mingw-w64-clang-x86_64-python-numpy
 +lib/python3.9/site-packages/numpy/random/bit_generator.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/numpy/random/mtrand.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/numpy/random/mtrand.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-openmdao-3.0.0-2
+Only in mingw64: mingw-w64-python-openmdao
 diff mingw-w64-x86_64-python-pandas mingw-w64-clang-x86_64-python-pandas
---- mingw-w64-x86_64-python-pandas
-+++ mingw-w64-clang-x86_64-python-pandas
+--- mingw-w64-x86_64-python-pandas 1.3.1-1
++++ mingw-w64-clang-x86_64-python-pandas 1.3.1-1
 -lib/python3.9/site-packages/pandas/_libs/algos.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/pandas/_libs/algos.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/pandas/_libs/arrays.cp39-mingw_x86_64.pyd
@@ -1859,13 +2314,13 @@ diff mingw-w64-x86_64-python-pandas mingw-w64-clang-x86_64-python-pandas
 -lib/python3.9/site-packages/pandas/io/sas/_sas.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/pandas/io/sas/_sas.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-pesq mingw-w64-clang-x86_64-python-pesq
---- mingw-w64-x86_64-python-pesq
-+++ mingw-w64-clang-x86_64-python-pesq
+--- mingw-w64-x86_64-python-pesq 0.0.3-1
++++ mingw-w64-clang-x86_64-python-pesq 0.0.3-1
 -lib/python3.9/site-packages/pesq/cypesq.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/pesq/cypesq.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-pillow mingw-w64-clang-x86_64-python-pillow
---- mingw-w64-x86_64-python-pillow
-+++ mingw-w64-clang-x86_64-python-pillow
+--- mingw-w64-x86_64-python-pillow 8.3.1-2
++++ mingw-w64-clang-x86_64-python-pillow 8.3.1-2
 -lib/python3.9/site-packages/PIL/_imaging.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/PIL/_imaging.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/PIL/_imagingcms.cp39-mingw_x86_64.pyd
@@ -1880,27 +2335,37 @@ diff mingw-w64-x86_64-python-pillow mingw-w64-clang-x86_64-python-pillow
 +lib/python3.9/site-packages/PIL/_imagingtk.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/PIL/_webp.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/PIL/_webp.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-pivy-0.6.5-2
+diff mingw-w64-x86_64-python-pivy mingw-w64-clang-x86_64-python-pivy
+--- mingw-w64-x86_64-python-pivy 0.6.6-1
++++ mingw-w64-clang-x86_64-python-pivy 0.6.6-1
+-lib/python3.9/site-packages/pivy/_coin.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/pivy/_coin.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/pivy/gui/_soqt.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/pivy/gui/_soqt.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-psutil mingw-w64-clang-x86_64-python-psutil
---- mingw-w64-x86_64-python-psutil
-+++ mingw-w64-clang-x86_64-python-psutil
+--- mingw-w64-x86_64-python-psutil 5.8.0-2
++++ mingw-w64-clang-x86_64-python-psutil 5.8.0-2
 -lib/python3.9/site-packages/psutil/_psutil_windows.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/psutil/_psutil_windows.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-psycopg2-2.8.5-2
-Only in mingw64: mingw-w64-python-pyamg-4.0.0-3
+diff mingw-w64-x86_64-python-psycopg2 mingw-w64-clang-x86_64-python-psycopg2
+--- mingw-w64-x86_64-python-psycopg2 2.8.5-2
++++ mingw-w64-clang-x86_64-python-psycopg2 2.8.5-2
+-lib/python3.9/site-packages/psycopg2/_psycopg.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/psycopg2/_psycopg.cp39-mingw_x86_64_clang.pyd
+Only in mingw64: mingw-w64-python-pyamg
 diff mingw-w64-x86_64-python-pyfastbti-git mingw-w64-clang-x86_64-python-pyfastbti-git
---- mingw-w64-x86_64-python-pyfastbti-git
-+++ mingw-w64-clang-x86_64-python-pyfastbti-git
+--- mingw-w64-x86_64-python-pyfastbti-git 0.r3.da01c14-2
++++ mingw-w64-clang-x86_64-python-pyfastbti-git 0.r3.da01c14-2
 -lib/python3.9/site-packages/pyfastbti.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/pyfastbti.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-pyfasttextureutils-git mingw-w64-clang-x86_64-python-pyfasttextureutils-git
---- mingw-w64-x86_64-python-pyfasttextureutils-git
-+++ mingw-w64-clang-x86_64-python-pyfasttextureutils-git
+--- mingw-w64-x86_64-python-pyfasttextureutils-git 0.r2.8fd8558-2
++++ mingw-w64-clang-x86_64-python-pyfasttextureutils-git 0.r2.8fd8558-2
 -lib/python3.9/site-packages/pyfasttextureutils.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/pyfasttextureutils.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-pyopengl mingw-w64-clang-x86_64-python-pyopengl
---- mingw-w64-x86_64-python-pyopengl
-+++ mingw-w64-clang-x86_64-python-pyopengl
+--- mingw-w64-x86_64-python-pyopengl 3.1.5-2
++++ mingw-w64-clang-x86_64-python-pyopengl 3.1.5-2
 -lib/python3.9/site-packages/OpenGL_accelerate/arraydatatype.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/OpenGL_accelerate/arraydatatype.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/OpenGL_accelerate/buffers_formathandler.cp39-mingw_x86_64.pyd
@@ -1917,24 +2382,9 @@ diff mingw-w64-x86_64-python-pyopengl mingw-w64-clang-x86_64-python-pyopengl
 +lib/python3.9/site-packages/OpenGL_accelerate/vbo.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/OpenGL_accelerate/wrapper.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/OpenGL_accelerate/wrapper.cp39-mingw_x86_64_clang.pyd
-diff mingw-w64-x86_64-python-pyqt5-3d mingw-w64-clang-x86_64-python-pyqt5-3d
---- mingw-w64-x86_64-python-pyqt5-3d
-+++ mingw-w64-clang-x86_64-python-pyqt5-3d
--lib/python3.9/site-packages/PyQt5/Qt3DAnimation.cp39-mingw_x86_64.pyd
-+lib/python3.9/site-packages/PyQt5/Qt3DAnimation.cp39-mingw_x86_64_clang.pyd
--lib/python3.9/site-packages/PyQt5/Qt3DCore.cp39-mingw_x86_64.pyd
-+lib/python3.9/site-packages/PyQt5/Qt3DCore.cp39-mingw_x86_64_clang.pyd
--lib/python3.9/site-packages/PyQt5/Qt3DExtras.cp39-mingw_x86_64.pyd
-+lib/python3.9/site-packages/PyQt5/Qt3DExtras.cp39-mingw_x86_64_clang.pyd
--lib/python3.9/site-packages/PyQt5/Qt3DInput.cp39-mingw_x86_64.pyd
-+lib/python3.9/site-packages/PyQt5/Qt3DInput.cp39-mingw_x86_64_clang.pyd
--lib/python3.9/site-packages/PyQt5/Qt3DLogic.cp39-mingw_x86_64.pyd
-+lib/python3.9/site-packages/PyQt5/Qt3DLogic.cp39-mingw_x86_64_clang.pyd
--lib/python3.9/site-packages/PyQt5/Qt3DRender.cp39-mingw_x86_64.pyd
-+lib/python3.9/site-packages/PyQt5/Qt3DRender.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-pyqt5 mingw-w64-clang-x86_64-python-pyqt5
---- mingw-w64-x86_64-python-pyqt5
-+++ mingw-w64-clang-x86_64-python-pyqt5
+--- mingw-w64-x86_64-python-pyqt5 5.15.4-5
++++ mingw-w64-clang-x86_64-python-pyqt5 5.15.4-5
 -lib/python3.9/site-packages/PyQt5/QAxContainer.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/PyQt5/QAxContainer.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/PyQt5/Qt.cp39-mingw_x86_64.pyd
@@ -2032,9 +2482,24 @@ diff mingw-w64-x86_64-python-pyqt5 mingw-w64-clang-x86_64-python-pyqt5
 +lib/python3.9/site-packages/PyQt5/pylupdate.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/PyQt5/pyrcc.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/PyQt5/pyrcc.cp39-mingw_x86_64_clang.pyd
+diff mingw-w64-x86_64-python-pyqt5-3d mingw-w64-clang-x86_64-python-pyqt5-3d
+--- mingw-w64-x86_64-python-pyqt5-3d 5.15.4-4
++++ mingw-w64-clang-x86_64-python-pyqt5-3d 5.15.4-4
+-lib/python3.9/site-packages/PyQt5/Qt3DAnimation.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PyQt5/Qt3DAnimation.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PyQt5/Qt3DCore.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PyQt5/Qt3DCore.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PyQt5/Qt3DExtras.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PyQt5/Qt3DExtras.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PyQt5/Qt3DInput.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PyQt5/Qt3DInput.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PyQt5/Qt3DLogic.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PyQt5/Qt3DLogic.cp39-mingw_x86_64_clang.pyd
+-lib/python3.9/site-packages/PyQt5/Qt3DRender.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/PyQt5/Qt3DRender.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-pyqt6 mingw-w64-clang-x86_64-python-pyqt6
---- mingw-w64-x86_64-python-pyqt6
-+++ mingw-w64-clang-x86_64-python-pyqt6
+--- mingw-w64-x86_64-python-pyqt6 6.1.1-1
++++ mingw-w64-clang-x86_64-python-pyqt6 6.1.1-1
 -lib/python3.9/site-packages/PyQt6/QtCore.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/PyQt6/QtCore.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/PyQt6/QtDBus.cp39-mingw_x86_64.pyd
@@ -2074,29 +2539,29 @@ diff mingw-w64-x86_64-python-pyqt6 mingw-w64-clang-x86_64-python-pyqt6
 -lib/python3.9/site-packages/PyQt6/QtXml.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/PyQt6/QtXml.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-pyqt6-sip mingw-w64-clang-x86_64-python-pyqt6-sip
---- mingw-w64-x86_64-python-pyqt6-sip
-+++ mingw-w64-clang-x86_64-python-pyqt6-sip
+--- mingw-w64-x86_64-python-pyqt6-sip 13.1.0-1
++++ mingw-w64-clang-x86_64-python-pyqt6-sip 13.1.0-1
 -lib/python3.9/site-packages/PyQt6/sip.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/PyQt6/sip.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-pyrsistent mingw-w64-clang-x86_64-python-pyrsistent
---- mingw-w64-x86_64-python-pyrsistent
-+++ mingw-w64-clang-x86_64-python-pyrsistent
+--- mingw-w64-x86_64-python-pyrsistent 0.18.0-2
++++ mingw-w64-clang-x86_64-python-pyrsistent 0.18.0-2
 -lib/python3.9/site-packages/pvectorc.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/pvectorc.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-pystemmer mingw-w64-clang-x86_64-python-pystemmer
---- mingw-w64-x86_64-python-pystemmer
-+++ mingw-w64-clang-x86_64-python-pystemmer
+--- mingw-w64-x86_64-python-pystemmer 2.0.0.1-2
++++ mingw-w64-clang-x86_64-python-pystemmer 2.0.0.1-2
 -lib/python3.9/site-packages/Stemmer.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/Stemmer.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-pystoi-0.3.3-2
+Only in mingw64: mingw-w64-python-pystoi
 diff mingw-w64-x86_64-python-python_ics mingw-w64-clang-x86_64-python-python_ics
---- mingw-w64-x86_64-python-python_ics
-+++ mingw-w64-clang-x86_64-python-python_ics
+--- mingw-w64-x86_64-python-python_ics 4.6-2
++++ mingw-w64-clang-x86_64-python-python_ics 4.6-2
 -lib/python3.9/site-packages/ics.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/ics.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-pywavelets mingw-w64-clang-x86_64-python-pywavelets
---- mingw-w64-x86_64-python-pywavelets
-+++ mingw-w64-clang-x86_64-python-pywavelets
+--- mingw-w64-x86_64-python-pywavelets 1.1.1-3
++++ mingw-w64-clang-x86_64-python-pywavelets 1.1.1-3
 -lib/python3.9/site-packages/pywt/_extensions/_cwt.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/pywt/_extensions/_cwt.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/pywt/_extensions/_dwt.cp39-mingw_x86_64.pyd
@@ -2106,8 +2571,8 @@ diff mingw-w64-x86_64-python-pywavelets mingw-w64-clang-x86_64-python-pywavelets
 -lib/python3.9/site-packages/pywt/_extensions/_swt.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/pywt/_extensions/_swt.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-pyzmq mingw-w64-clang-x86_64-python-pyzmq
---- mingw-w64-x86_64-python-pyzmq
-+++ mingw-w64-clang-x86_64-python-pyzmq
+--- mingw-w64-x86_64-python-pyzmq 19.0.2-2
++++ mingw-w64-clang-x86_64-python-pyzmq 19.0.2-2
 -lib/python3.9/site-packages/zmq/backend/cython/_device.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/zmq/backend/cython/_device.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/zmq/backend/cython/_poll.cp39-mingw_x86_64.pyd
@@ -2131,212 +2596,198 @@ diff mingw-w64-x86_64-python-pyzmq mingw-w64-clang-x86_64-python-pyzmq
 -lib/python3.9/site-packages/zmq/devices/monitoredqueue.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/zmq/devices/monitoredqueue.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-pyzopfli mingw-w64-clang-x86_64-python-pyzopfli
---- mingw-w64-x86_64-python-pyzopfli
-+++ mingw-w64-clang-x86_64-python-pyzopfli
+--- mingw-w64-x86_64-python-pyzopfli 0.1.7-2
++++ mingw-w64-clang-x86_64-python-pyzopfli 0.1.7-2
 -lib/python3.9/site-packages/zopfli/zopfli.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/zopfli/zopfli.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-qscintilla mingw-w64-clang-x86_64-python-qscintilla
---- mingw-w64-x86_64-python-qscintilla
-+++ mingw-w64-clang-x86_64-python-qscintilla
+--- mingw-w64-x86_64-python-qscintilla 2.11.6-4
++++ mingw-w64-clang-x86_64-python-qscintilla 2.11.6-4
 -lib/python3.9/site-packages/PyQt5/Qsci.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/PyQt5/Qsci.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-rawpy-0.16.0-2
+Only in mingw64: mingw-w64-python-rawpy
 diff mingw-w64-x86_64-python-regex mingw-w64-clang-x86_64-python-regex
---- mingw-w64-x86_64-python-regex
-+++ mingw-w64-clang-x86_64-python-regex
+--- mingw-w64-x86_64-python-regex 2020.11.13-2
++++ mingw-w64-clang-x86_64-python-regex 2020.11.13-2
 -lib/python3.9/site-packages/regex/_regex.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/regex/_regex.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-rencode mingw-w64-clang-x86_64-python-rencode
---- mingw-w64-x86_64-python-rencode
-+++ mingw-w64-clang-x86_64-python-rencode
+--- mingw-w64-x86_64-python-rencode 1.0.6-3
++++ mingw-w64-clang-x86_64-python-rencode 1.0.6-3
 -lib/python3.9/site-packages/rencode/_rencode.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/rencode/_rencode.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-reportlab mingw-w64-clang-x86_64-python-reportlab
---- mingw-w64-x86_64-python-reportlab
-+++ mingw-w64-clang-x86_64-python-reportlab
+--- mingw-w64-x86_64-python-reportlab 3.5.42-2
++++ mingw-w64-clang-x86_64-python-reportlab 3.5.42-2
 -lib/python3.9/site-packages/reportlab/graphics/_renderPM.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/reportlab/graphics/_renderPM.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/reportlab/lib/_rl_accel.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/reportlab/lib/_rl_accel.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-resampy-0.2.2-2
+Only in mingw64: mingw-w64-python-resampy
 diff mingw-w64-x86_64-python-ruamel.yaml.clib mingw-w64-clang-x86_64-python-ruamel.yaml.clib
---- mingw-w64-x86_64-python-ruamel.yaml.clib
-+++ mingw-w64-clang-x86_64-python-ruamel.yaml.clib
+--- mingw-w64-x86_64-python-ruamel.yaml.clib 0.2.2-2
++++ mingw-w64-clang-x86_64-python-ruamel.yaml.clib 0.2.2-2
 -lib/python3.9/site-packages/_ruamel_yaml.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/_ruamel_yaml.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-scikit-image-0.18.1-3
-Only in mingw64: mingw-w64-python-scikit-learn-0.22.2.post1-2
-Only in mingw64: mingw-w64-python-scipy-1.6.3-2
-Only in mingw64: mingw-w64-python-seaborn-0.11.1-2
+Only in mingw64: mingw-w64-python-scikit-image
+Only in mingw64: mingw-w64-python-scikit-learn
+Only in mingw64: mingw-w64-python-scipy
+Only in mingw64: mingw-w64-python-seaborn
 diff mingw-w64-x86_64-python-setproctitle mingw-w64-clang-x86_64-python-setproctitle
---- mingw-w64-x86_64-python-setproctitle
-+++ mingw-w64-clang-x86_64-python-setproctitle
+--- mingw-w64-x86_64-python-setproctitle 1.2.2-2
++++ mingw-w64-clang-x86_64-python-setproctitle 1.2.2-2
 -lib/python3.9/site-packages/setproctitle.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/setproctitle.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-sqlalchemy mingw-w64-clang-x86_64-python-sqlalchemy
---- mingw-w64-x86_64-python-sqlalchemy
-+++ mingw-w64-clang-x86_64-python-sqlalchemy
+--- mingw-w64-x86_64-python-sqlalchemy 1.3.16-2
++++ mingw-w64-clang-x86_64-python-sqlalchemy 1.3.16-2
 -lib/python3.9/site-packages/sqlalchemy/cprocessors.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/sqlalchemy/cprocessors.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/sqlalchemy/cresultproxy.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/sqlalchemy/cresultproxy.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/sqlalchemy/cutils.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/sqlalchemy/cutils.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-statsmodels-0.11.1-2
-Only in mingw64: mingw-w64-python-theano-1.0.5-3
+Only in mingw64: mingw-w64-python-statsmodels
+Only in mingw64: mingw-w64-python-theano
 diff mingw-w64-x86_64-python-tinyaes mingw-w64-clang-x86_64-python-tinyaes
---- mingw-w64-x86_64-python-tinyaes
-+++ mingw-w64-clang-x86_64-python-tinyaes
+--- mingw-w64-x86_64-python-tinyaes 1.0.1-2
++++ mingw-w64-clang-x86_64-python-tinyaes 1.0.1-2
 -lib/python3.9/site-packages/tinyaes.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/tinyaes.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-tornado mingw-w64-clang-x86_64-python-tornado
---- mingw-w64-x86_64-python-tornado
-+++ mingw-w64-clang-x86_64-python-tornado
+--- mingw-w64-x86_64-python-tornado 6.0.4-2
++++ mingw-w64-clang-x86_64-python-tornado 6.0.4-2
 -lib/python3.9/site-packages/tornado/speedups.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/tornado/speedups.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-typed_ast mingw-w64-clang-x86_64-python-typed_ast
---- mingw-w64-x86_64-python-typed_ast
-+++ mingw-w64-clang-x86_64-python-typed_ast
+--- mingw-w64-x86_64-python-typed_ast 1.4.2-2
++++ mingw-w64-clang-x86_64-python-typed_ast 1.4.2-2
 -lib/python3.9/site-packages/typed_ast/_ast27.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/typed_ast/_ast27.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/typed_ast/_ast3.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/typed_ast/_ast3.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-ujson mingw-w64-clang-x86_64-python-ujson
---- mingw-w64-x86_64-python-ujson
-+++ mingw-w64-clang-x86_64-python-ujson
+--- mingw-w64-x86_64-python-ujson 4.0.2-2
++++ mingw-w64-clang-x86_64-python-ujson 4.0.2-2
 -lib/python3.9/site-packages/ujson.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/ujson.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-umap-learn-0.5.1-2
+Only in mingw64: mingw-w64-python-umap-learn
 diff mingw-w64-x86_64-python-webrtcvad mingw-w64-clang-x86_64-python-webrtcvad
---- mingw-w64-x86_64-python-webrtcvad
-+++ mingw-w64-clang-x86_64-python-webrtcvad
+--- mingw-w64-x86_64-python-webrtcvad 2.0.10-2
++++ mingw-w64-clang-x86_64-python-webrtcvad 2.0.10-2
 -lib/python3.9/site-packages/_webrtcvad.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/_webrtcvad.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-winkerberos mingw-w64-clang-x86_64-python-winkerberos
---- mingw-w64-x86_64-python-winkerberos
-+++ mingw-w64-clang-x86_64-python-winkerberos
+--- mingw-w64-x86_64-python-winkerberos 0.7.0-3
++++ mingw-w64-clang-x86_64-python-winkerberos 0.7.0-3
 -lib/python3.9/site-packages/winkerberos.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/winkerberos.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-wrapt mingw-w64-clang-x86_64-python-wrapt
---- mingw-w64-x86_64-python-wrapt
-+++ mingw-w64-clang-x86_64-python-wrapt
+--- mingw-w64-x86_64-python-wrapt 1.12.1-2
++++ mingw-w64-clang-x86_64-python-wrapt 1.12.1-2
 -lib/python3.9/site-packages/wrapt/_wrappers.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/wrapt/_wrappers.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python-xpra-4.0.6-4
+Only in mingw64: mingw-w64-python-xpra
 diff mingw-w64-x86_64-python-yaml mingw-w64-clang-x86_64-python-yaml
---- mingw-w64-x86_64-python-yaml
-+++ mingw-w64-clang-x86_64-python-yaml
+--- mingw-w64-x86_64-python-yaml 5.4.1-2
++++ mingw-w64-clang-x86_64-python-yaml 5.4.1-2
 -lib/python3.9/site-packages/yaml/_yaml.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/yaml/_yaml.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-yarl mingw-w64-clang-x86_64-python-yarl
---- mingw-w64-x86_64-python-yarl
-+++ mingw-w64-clang-x86_64-python-yarl
+--- mingw-w64-x86_64-python-yarl 1.6.3-2
++++ mingw-w64-clang-x86_64-python-yarl 1.6.3-2
 -lib/python3.9/site-packages/yarl/_quoting_c.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/yarl/_quoting_c.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-zope.interface mingw-w64-clang-x86_64-python-zope.interface
---- mingw-w64-x86_64-python-zope.interface
-+++ mingw-w64-clang-x86_64-python-zope.interface
+--- mingw-w64-x86_64-python-zope.interface 5.2.0-2
++++ mingw-w64-clang-x86_64-python-zope.interface 5.2.0-2
 -lib/python3.9/site-packages/zope/interface/_zope_interface_coptimizations.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/zope/interface/_zope_interface_coptimizations.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-python-zstandard mingw-w64-clang-x86_64-python-zstandard
---- mingw-w64-x86_64-python-zstandard
-+++ mingw-w64-clang-x86_64-python-zstandard
+--- mingw-w64-x86_64-python-zstandard 0.15.2-2
++++ mingw-w64-clang-x86_64-python-zstandard 0.15.2-2
 -lib/python3.9/site-packages/zstandard/backend_c.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/zstandard/backend_c.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-python2-2.7.18-1
-Only in mingw64: mingw-w64-python2-cairo-1.18.2-3
-Only in mingw64: mingw-w64-python2-gobject2-2.28.7-3
-Only in mingw64: mingw-w64-python2-pip-20.0.2-1
-Only in mingw64: mingw-w64-python2-pygtk-2.24.0-8
-Only in mingw64: mingw-w64-python2-setuptools-44.1.1-1
-Only in mingw64: mingw-w64-qca-qt5-2.3.1-1
-Only in mingw64: mingw-w64-qemu-6.0.0-5
-Only in mingw64: mingw-w64-qpdf-10.1.0-1
-Only in mingw64: mingw-w64-qrupdate-1.1.2-2
-Only in mingw64: mingw-w64-qt-creator-4.14.2-1
-Only in mingw64: mingw-w64-qt-installer-framework-4.0.1-1
-diff mingw-w64-x86_64-qt5 mingw-w64-clang-x86_64-qt5
---- mingw-w64-x86_64-qt5
-+++ mingw-w64-clang-x86_64-qt5
--include/QtVulkanSupport/
--include/QtVulkanSupport/5.15.2/
--include/QtVulkanSupport/5.15.2/QtVulkanSupport/
--include/QtVulkanSupport/5.15.2/QtVulkanSupport/private/
--include/QtVulkanSupport/5.15.2/QtVulkanSupport/private/qbasicvulkanplatforminstance_p.h
--include/QtVulkanSupport/5.15.2/QtVulkanSupport/private/qvkconvenience_p.h
--include/QtVulkanSupport/QtVulkanSupport
--include/QtVulkanSupport/QtVulkanSupportDepends
--include/QtVulkanSupport/QtVulkanSupportVersion
--include/QtVulkanSupport/qtvulkansupportversion.h
--lib/Qt5VulkanSupport.prl
--lib/cmake/Qt53DRender/Qt53DRender_AssimpSceneImportPlugin.cmake
+Only in mingw64: mingw-w64-python2
+Only in mingw64: mingw-w64-python2-cairo
+Only in mingw64: mingw-w64-python2-gobject2
+Only in mingw64: mingw-w64-python2-pip
+Only in mingw64: mingw-w64-python2-pygtk
+Only in mingw64: mingw-w64-python2-setuptools
+Only in mingw64: mingw-w64-qpdf
+Only in mingw64: mingw-w64-qrupdate
+Only in mingw64: mingw-w64-qt-installer-framework
+diff mingw-w64-x86_64-qt5-base mingw-w64-clang-x86_64-qt5-base
+--- mingw-w64-x86_64-qt5-base 5.15.2+kde+r96-1
++++ mingw-w64-clang-x86_64-qt5-base 5.15.2+kde+r96-1
 -lib/cmake/Qt5Sql/Qt5Sql_QIBaseDriverPlugin.cmake
--lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake
--lib/cmake/Qt5VulkanSupport/
--lib/cmake/Qt5VulkanSupport/Qt5VulkanSupportConfig.cmake
--lib/cmake/Qt5VulkanSupport/Qt5VulkanSupportConfigVersion.cmake
--lib/libQt5VulkanSupport.a
--share/qt5/mkspecs/modules/qt_lib_vulkan_support_private.pri
--share/qt5/plugins/sceneparsers/assimpsceneimport.dll
 -share/qt5/plugins/sqldrivers/qsqlibase.dll
--share/qt5/plugins/sqldrivers/qsqlpsql.dll
--share/qt5/qml/QtAudioEngine/
--share/qt5/qml/QtAudioEngine/declarative_audioengine.dll
--share/qt5/qml/QtAudioEngine/plugins.qmltypes
--share/qt5/qml/QtAudioEngine/qmldir
-diff mingw-w64-x86_64-qt5-debug mingw-w64-clang-x86_64-qt5-debug
---- mingw-w64-x86_64-qt5-debug
-+++ mingw-w64-clang-x86_64-qt5-debug
--share/qt5/plugins/sceneparsers/assimpsceneimport.dll.debug
+diff mingw-w64-x86_64-qt5-base-debug mingw-w64-clang-x86_64-qt5-base-debug
+--- mingw-w64-x86_64-qt5-base-debug 5.15.2+kde+r96-1
++++ mingw-w64-clang-x86_64-qt5-base-debug 5.15.2+kde+r96-1
 -share/qt5/plugins/sqldrivers/qsqlibase.dll.debug
--share/qt5/plugins/sqldrivers/qsqlpsql.dll.debug
--share/qt5/qml/QtAudioEngine/
--share/qt5/qml/QtAudioEngine/declarative_audioengine.dll.debug
-Only in mingw64: mingw-w64-qt5-static-5.15.2-2
-diff mingw-w64-x86_64-qt6-base mingw-w64-clang-x86_64-qt6-base
---- mingw-w64-x86_64-qt6-base
-+++ mingw-w64-clang-x86_64-qt6-base
--lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake
--lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake
--lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfigVersion.cmake
--lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets-release.cmake
--lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets.cmake
--share/qt6/plugins/sqldrivers/qsqlpsql.dll
-Only in mingw64: mingw-w64-qtwebkit-5.212.0alpha4-8
-Only in mingw64: mingw-w64-quarter-1.1.0-1
-Only in mingw64: mingw-w64-quassel-0.13.1-2
-Only in mingw64: mingw-w64-ripgrep-12.1.1-1
-Only in mingw64: mingw-w64-riscv64-unknown-elf-gcc-10.1.0-2
-Only in mingw64: mingw-w64-riscv64-unknown-elf-newlib-3.3.0-2
-Only in mingw64: mingw-w64-rocksdb-6.12.7-1
-Only in mingw64: mingw-w64-rubberband-1.9.0-1
-Only in mingw64: mingw-w64-ruby-3.0.2-1
-Only in mingw64: mingw-w64-ruby-dbus-0.16.0-2
-Only in mingw64: mingw-w64-ruby-hpricot-0.8.6-3
-Only in mingw64: mingw-w64-ruby-mustache-1.1.1-2
-Only in mingw64: mingw-w64-ruby-native-package-installer-1.0.9-2
-Only in mingw64: mingw-w64-ruby-pkg-config-1.3.7-2
-Only in mingw64: mingw-w64-ruby-rake-compiler-1.0.7-2
-Only in mingw64: mingw-w64-ruby-rdiscount-2.2.0.1-3
-Only in mingw64: mingw-w64-ruby-ronn-0.7.3-3
+diff mingw-w64-x86_64-qt5-static mingw-w64-clang-x86_64-qt5-static
+--- mingw-w64-x86_64-qt5-static 5.15.2-3
++++ mingw-w64-clang-x86_64-qt5-static 5.15.2-3
+-qt5-static/include/QtVulkanSupport/
+-qt5-static/include/QtVulkanSupport/5.15.2/
+-qt5-static/include/QtVulkanSupport/5.15.2/QtVulkanSupport/
+-qt5-static/include/QtVulkanSupport/5.15.2/QtVulkanSupport/private/
+-qt5-static/include/QtVulkanSupport/5.15.2/QtVulkanSupport/private/qbasicvulkanplatforminstance_p.h
+-qt5-static/include/QtVulkanSupport/5.15.2/QtVulkanSupport/private/qvkconvenience_p.h
+-qt5-static/include/QtVulkanSupport/QtVulkanSupport
+-qt5-static/include/QtVulkanSupport/QtVulkanSupportDepends
+-qt5-static/include/QtVulkanSupport/QtVulkanSupportVersion
+-qt5-static/include/QtVulkanSupport/qtvulkansupportversion.h
+-qt5-static/lib/Qt5VulkanSupport.prl
+-qt5-static/lib/Qt5VulkanSupportd.prl
+-qt5-static/lib/cmake/Qt5VulkanSupport/
+-qt5-static/lib/cmake/Qt5VulkanSupport/Qt5VulkanSupportConfig.cmake
+-qt5-static/lib/cmake/Qt5VulkanSupport/Qt5VulkanSupportConfigVersion.cmake
+-qt5-static/lib/libQt5VulkanSupport.a
+-qt5-static/lib/libQt5VulkanSupportd.a
+-qt5-static/share/qt5/mkspecs/modules/qt_lib_vulkan_support_private.pri
+-qt5-static/share/qt5/qml/QtAudioEngine/
+-qt5-static/share/qt5/qml/QtAudioEngine/declarative_audioengine.prl
+-qt5-static/share/qt5/qml/QtAudioEngine/declarative_audioengined.prl
+-qt5-static/share/qt5/qml/QtAudioEngine/libdeclarative_audioengine.a
+-qt5-static/share/qt5/qml/QtAudioEngine/libdeclarative_audioengined.a
+-qt5-static/share/qt5/qml/QtAudioEngine/plugins.qmltypes
+-qt5-static/share/qt5/qml/QtAudioEngine/qmldir
+Only in mingw64: mingw-w64-ripgrep
+Only in mingw64: mingw-w64-riscv64-unknown-elf-gcc
+Only in mingw64: mingw-w64-riscv64-unknown-elf-newlib
+Only in mingw64: mingw-w64-rocksdb
+Only in mingw64: mingw-w64-rubberband
+diff mingw-w64-x86_64-ruby mingw-w64-clang-x86_64-ruby
+--- mingw-w64-x86_64-ruby 3.0.2-4
++++ mingw-w64-clang-x86_64-ruby 3.0.2-4
++bin/ruby300.dll
+-bin/x64-msvcrt-ruby300.dll
++lib/libruby300.dll.a
+-lib/libx64-msvcrt-ruby300.dll.a
+diff mingw-w64-x86_64-ruby-rdiscount mingw-w64-clang-x86_64-ruby-rdiscount
+--- mingw-w64-x86_64-ruby-rdiscount 2.2.0.1-3
++++ mingw-w64-clang-x86_64-ruby-rdiscount 2.2.0.1-3
+-lib/ruby/gems/3.0.0/gems/rdiscount-2.2.0.1/ext/.gem.20210414-6884-y9md4r/
 diff mingw-w64-x86_64-rust-docs mingw-w64-clang-x86_64-rust-docs
---- mingw-w64-x86_64-rust-docs
-+++ mingw-w64-clang-x86_64-rust-docs
+--- mingw-w64-x86_64-rust-docs 1.53.0-3
++++ mingw-w64-clang-x86_64-rust-docs 1.53.0-3
 +share/licenses/mingw-w64-clang-x86_64-rust-docs/
 +share/licenses/mingw-w64-clang-x86_64-rust-docs/LICENSE-APACHE
 +share/licenses/mingw-w64-clang-x86_64-rust-docs/LICENSE-MIT
 -share/licenses/mingw-w64-x86_64-rust-docs/
 -share/licenses/mingw-w64-x86_64-rust-docs/LICENSE-APACHE
 -share/licenses/mingw-w64-x86_64-rust-docs/LICENSE-MIT
-Only in mingw64: mingw-w64-scalapack-2.1.0-3
-Only in mingw64: mingw-w64-scintilla-gtk3-4.4.6-1
-Only in mingw64: mingw-w64-scite-4.4.6-1
-Only in mingw64: mingw-w64-scite-defaults-4.4.6-1
-Only in mingw64: mingw-w64-scopehal-apps-0.0.0.r1264.gdcc6550-1
-Only in mingw64: mingw-w64-scotch-6.1.0-1
+Only in mingw64: mingw-w64-scalapack
+Only in mingw64: mingw-w64-scintilla-gtk3
+Only in mingw64: mingw-w64-scite
+Only in mingw64: mingw-w64-scite-defaults
+Only in mingw64: mingw-w64-scopehal-apps
+Only in mingw64: mingw-w64-scotch
 diff mingw-w64-x86_64-sfml mingw-w64-clang-x86_64-sfml
---- mingw-w64-x86_64-sfml
-+++ mingw-w64-clang-x86_64-sfml
+--- mingw-w64-x86_64-sfml 2.5.1-2
++++ mingw-w64-clang-x86_64-sfml 2.5.1-2
 -share/SFML/doc/html/doxygen.png
 +share/SFML/doc/html/doxygen.svg
 -share/SFML/doc/html/functions_0x7e.html
@@ -2348,114 +2799,275 @@ diff mingw-w64-x86_64-sfml mingw-w64-clang-x86_64-sfml
 +share/SFML/doc/html/index.hhp
 +share/SFML/doc/sfml.chm
 diff mingw-w64-x86_64-shaderc mingw-w64-clang-x86_64-shaderc
---- mingw-w64-x86_64-shaderc
-+++ mingw-w64-clang-x86_64-shaderc
+--- mingw-w64-x86_64-shaderc 2021.1-3
++++ mingw-w64-clang-x86_64-shaderc 2021.1-3
 -share/man/man1/glslc.1.gz
 diff mingw-w64-x86_64-shiboken2-qt5 mingw-w64-clang-x86_64-shiboken2-qt5
---- mingw-w64-x86_64-shiboken2-qt5
-+++ mingw-w64-clang-x86_64-shiboken2-qt5
+--- mingw-w64-x86_64-shiboken2-qt5 5.15.2-7
++++ mingw-w64-clang-x86_64-shiboken2-qt5 5.15.2-7
 -bin/libshiboken2.cp39-mingw_x86_64.dll
 +bin/libshiboken2.cp39-mingw_x86_64_clang.dll
 -lib/cmake/Shiboken2-5.15.2/Shiboken2Config.cp39-mingw_x86_64.cmake
 +lib/cmake/Shiboken2-5.15.2/Shiboken2Config.cp39-mingw_x86_64_clang.cmake
 -lib/libshiboken2.cp39-mingw_x86_64.dll.a
 +lib/libshiboken2.cp39-mingw_x86_64_clang.dll.a
--lib/python3.9/site-packages/shiboken2/shiboken2.cp39-mingw_x86_64.dll
-+lib/python3.9/site-packages/shiboken2/shiboken2.cp39-mingw_x86_64_clang.dll
-Only in mingw64: mingw-w64-silc-toolkit-1.1.12-4
+-lib/python3.9/site-packages/shiboken2/shiboken2.cp39-mingw_x86_64.pyd
++lib/python3.9/site-packages/shiboken2/shiboken2.cp39-mingw_x86_64_clang.pyd
+Only in mingw64: mingw-w64-silc-toolkit
 diff mingw-w64-x86_64-sip mingw-w64-clang-x86_64-sip
---- mingw-w64-x86_64-sip
-+++ mingw-w64-clang-x86_64-sip
+--- mingw-w64-x86_64-sip 6.1.1-2
++++ mingw-w64-clang-x86_64-sip 6.1.1-2
 -lib/python3.9/site-packages/sipbuild/code_generator.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/sipbuild/code_generator.cp39-mingw_x86_64_clang.pyd
 diff mingw-w64-x86_64-skyr-url mingw-w64-clang-x86_64-skyr-url
---- mingw-w64-x86_64-skyr-url
-+++ mingw-w64-clang-x86_64-skyr-url
+--- mingw-w64-x86_64-skyr-url 1.13.0-3
++++ mingw-w64-clang-x86_64-skyr-url 1.13.0-3
 -include/skyr/filesystem/
 -include/skyr/filesystem/path.hpp
 -include/skyr/v1/filesystem/
 -include/skyr/v1/filesystem/path.hpp
 -include/skyr/v1/filesystem/portability.hpp
-Only in mingw64: mingw-w64-slepc-3.14.2-1
-Only in mingw64: mingw-w64-smpeg-0.4.5-2
-Only in mingw64: mingw-w64-smpeg2-2.0.0-5
-Only in mingw64: mingw-w64-soci-4.0.0-1
-Only in mingw64: mingw-w64-soqt-1.6.0-3
-Only in mingw64: mingw-w64-source-highlight-3.1.9-4
-Only in mingw64: mingw-w64-spatialite-gui-2.1.0-1
-Only in mingw64: mingw-w64-spatialite-tools-5.0.1-1
-Only in mingw64: mingw-w64-spice-gtk-0.39-1
-Only in mingw64: mingw-w64-spooles-2.2-4
-Only in mingw64: mingw-w64-squirrel-3.1-2
-Only in mingw64: mingw-w64-starship-0.54.0-1
-Only in mingw64: mingw-w64-stxxl-git-1.4.1.387.gb9e44f0e-1
-Only in mingw64: mingw-w64-styrene-0.3.0-5
-Only in mingw64: mingw-w64-suitesparse-5.8.1-1
-Only in mingw64: mingw-w64-sundials-5.7.0-2
-Only in mingw64: mingw-w64-superlu-5.2.2-2
-Only in mingw64: mingw-w64-superlu_dist-6.4.0-1
-Only in mingw64: mingw-w64-tepl5-5.0.1-1
-Only in mingw64: mingw-w64-tesseract-ocr-4.1.1-7
-Only in mingw64: mingw-w64-texlive-bibtex-extra-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-bin-2021.20210424-5
-Only in mingw64: mingw-w64-texlive-core-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-extra-utils-2021.20210519-3
-Only in mingw64: mingw-w64-texlive-font-utils-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-fonts-extra-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-fonts-recommended-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-formats-extra-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-games-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-humanities-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-arabic-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-chinese-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-cjk-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-cyrillic-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-czechslovak-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-english-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-european-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-french-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-german-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-greek-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-italian-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-japanese-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-korean-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-other-2021.20210519-3
-Only in mingw64: mingw-w64-texlive-lang-polish-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-portuguese-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-lang-spanish-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-latex-extra-2021.20210519-3
-Only in mingw64: mingw-w64-texlive-latex-recommended-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-luatex-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-metapost-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-music-2021.20210519-3
-Only in mingw64: mingw-w64-texlive-pictures-2021.20210519-3
-Only in mingw64: mingw-w64-texlive-plain-generic-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-pstricks-2021.20210519-3
-Only in mingw64: mingw-w64-texlive-publishers-2021.20210519-2
-Only in mingw64: mingw-w64-texlive-science-2021.20210519-3
-Only in mingw64: mingw-w64-tfel-3.4.1-2
-Only in mingw64: mingw-w64-tiledb-2.2.4-2
-Only in mingw64: mingw-w64-tiny-dnn-1.0.0a3-3
+Only in mingw64: mingw-w64-slepc
+Only in mingw64: mingw-w64-soci
+diff mingw-w64-x86_64-soqt mingw-w64-clang-x86_64-soqt
+--- mingw-w64-x86_64-soqt 1.6.0-4
++++ mingw-w64-clang-x86_64-soqt 1.6.0-4
++share/doc/SoQt/html/dir_07bf8cf9c234b237ba25a33cbbf54c8c.html
+-share/doc/SoQt/html/dir_0bebe272c341a7847467d1ea7cc7645f.html
+-share/doc/SoQt/html/dir_2d0e09b7add72276f9adf2abd7223bdd.html
+-share/doc/SoQt/html/dir_393a7e9be8ea390d476be5f0cf90dcae.html
++share/doc/SoQt/html/dir_5b5eca20cf8b29584c98e61ee9648f3b.html
+-share/doc/SoQt/html/dir_811fb736613ab6b65c98c53b1e14af94.html
++share/doc/SoQt/html/dir_97a00e679b00ef25088961336497cea3.html
++share/doc/SoQt/html/dir_a23999327318a15e3ab9e0048419467a.html
++share/doc/SoQt/html/dir_d6efa38deac2d03700537f601b3a3f3e.html
+-share/doc/SoQt/html/dir_ff774acf75f89c70e60dffc826c4f211.html
+Only in mingw64: mingw-w64-spatialite-gui
+Only in mingw64: mingw-w64-spice-gtk
+Only in mingw64: mingw-w64-spooles
+Only in mingw64: mingw-w64-squirrel
+Only in mingw64: mingw-w64-starship
+Only in mingw64: mingw-w64-stxxl-git
+Only in mingw64: mingw-w64-styrene
+Only in mingw64: mingw-w64-suitesparse
+Only in mingw64: mingw-w64-sundials
+Only in mingw64: mingw-w64-superlu
+Only in mingw64: mingw-w64-superlu_dist
+Only in mingw64: mingw-w64-tesseract-ocr
+diff mingw-w64-x86_64-texlive-bibtex-extra mingw-w64-clang-x86_64-texlive-bibtex-extra
+--- mingw-w64-x86_64-texlive-bibtex-extra 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-bibtex-extra 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-bibtex-extra_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-bibtex-extra_20210519.pkgs
+diff mingw-w64-x86_64-texlive-core mingw-w64-clang-x86_64-texlive-core
+--- mingw-w64-x86_64-texlive-core 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-core 2021.20210519-2
++share/libalpm/hooks/mingw-w64-clang-x86_64-mktexlsr.hook
++share/libalpm/hooks/mingw-w64-clang-x86_64-texlive-fmtutil.hook
++share/libalpm/hooks/mingw-w64-clang-x86_64-texlive-updmap.hook
+-share/libalpm/hooks/mingw-w64-x86_64-mktexlsr.hook
+-share/libalpm/hooks/mingw-w64-x86_64-texlive-fmtutil.hook
+-share/libalpm/hooks/mingw-w64-x86_64-texlive-updmap.hook
++share/libalpm/scripts/mingw-w64-clang-x86_64-mktexlsr.script
++share/libalpm/scripts/mingw-w64-clang-x86_64-texlive-fmtutil.script
++share/libalpm/scripts/mingw-w64-clang-x86_64-texlive-updmap.script
+-share/libalpm/scripts/mingw-w64-x86_64-mktexlsr.script
+-share/libalpm/scripts/mingw-w64-x86_64-texlive-fmtutil.script
+-share/libalpm/scripts/mingw-w64-x86_64-texlive-updmap.script
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-core_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-core_20210519.pkgs
+diff mingw-w64-x86_64-texlive-extra-utils mingw-w64-clang-x86_64-texlive-extra-utils
+--- mingw-w64-x86_64-texlive-extra-utils 2021.20210519-3
++++ mingw-w64-clang-x86_64-texlive-extra-utils 2021.20210519-3
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-extra-utils_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-extra-utils_20210519.pkgs
+diff mingw-w64-x86_64-texlive-font-utils mingw-w64-clang-x86_64-texlive-font-utils
+--- mingw-w64-x86_64-texlive-font-utils 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-font-utils 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-font-utils_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-font-utils_20210519.pkgs
+diff mingw-w64-x86_64-texlive-fonts-extra mingw-w64-clang-x86_64-texlive-fonts-extra
+--- mingw-w64-x86_64-texlive-fonts-extra 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-fonts-extra 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-fonts-extra_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-fonts-extra_20210519.pkgs
+diff mingw-w64-x86_64-texlive-fonts-recommended mingw-w64-clang-x86_64-texlive-fonts-recommended
+--- mingw-w64-x86_64-texlive-fonts-recommended 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-fonts-recommended 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-fonts-recommended_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-fonts-recommended_20210519.pkgs
+diff mingw-w64-x86_64-texlive-formats-extra mingw-w64-clang-x86_64-texlive-formats-extra
+--- mingw-w64-x86_64-texlive-formats-extra 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-formats-extra 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-formats-extra_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-formats-extra_20210519.pkgs
+diff mingw-w64-x86_64-texlive-games mingw-w64-clang-x86_64-texlive-games
+--- mingw-w64-x86_64-texlive-games 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-games 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-games_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-games_20210519.pkgs
+diff mingw-w64-x86_64-texlive-humanities mingw-w64-clang-x86_64-texlive-humanities
+--- mingw-w64-x86_64-texlive-humanities 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-humanities 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-humanities_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-humanities_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-arabic mingw-w64-clang-x86_64-texlive-lang-arabic
+--- mingw-w64-x86_64-texlive-lang-arabic 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-arabic 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-arabic_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-arabic_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-chinese mingw-w64-clang-x86_64-texlive-lang-chinese
+--- mingw-w64-x86_64-texlive-lang-chinese 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-chinese 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-chinese_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-chinese_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-cjk mingw-w64-clang-x86_64-texlive-lang-cjk
+--- mingw-w64-x86_64-texlive-lang-cjk 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-cjk 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-cjk_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-cjk_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-cyrillic mingw-w64-clang-x86_64-texlive-lang-cyrillic
+--- mingw-w64-x86_64-texlive-lang-cyrillic 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-cyrillic 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-cyrillic_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-cyrillic_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-czechslovak mingw-w64-clang-x86_64-texlive-lang-czechslovak
+--- mingw-w64-x86_64-texlive-lang-czechslovak 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-czechslovak 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-czechslovak_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-czechslovak_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-english mingw-w64-clang-x86_64-texlive-lang-english
+--- mingw-w64-x86_64-texlive-lang-english 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-english 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-english_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-english_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-european mingw-w64-clang-x86_64-texlive-lang-european
+--- mingw-w64-x86_64-texlive-lang-european 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-european 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-european_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-european_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-french mingw-w64-clang-x86_64-texlive-lang-french
+--- mingw-w64-x86_64-texlive-lang-french 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-french 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-french_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-french_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-german mingw-w64-clang-x86_64-texlive-lang-german
+--- mingw-w64-x86_64-texlive-lang-german 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-german 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-german_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-german_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-greek mingw-w64-clang-x86_64-texlive-lang-greek
+--- mingw-w64-x86_64-texlive-lang-greek 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-greek 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-greek_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-greek_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-italian mingw-w64-clang-x86_64-texlive-lang-italian
+--- mingw-w64-x86_64-texlive-lang-italian 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-italian 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-italian_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-italian_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-japanese mingw-w64-clang-x86_64-texlive-lang-japanese
+--- mingw-w64-x86_64-texlive-lang-japanese 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-japanese 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-japanese_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-japanese_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-korean mingw-w64-clang-x86_64-texlive-lang-korean
+--- mingw-w64-x86_64-texlive-lang-korean 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-korean 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-korean_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-korean_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-other mingw-w64-clang-x86_64-texlive-lang-other
+--- mingw-w64-x86_64-texlive-lang-other 2021.20210519-3
++++ mingw-w64-clang-x86_64-texlive-lang-other 2021.20210519-3
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-other_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-other_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-polish mingw-w64-clang-x86_64-texlive-lang-polish
+--- mingw-w64-x86_64-texlive-lang-polish 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-polish 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-polish_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-polish_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-portuguese mingw-w64-clang-x86_64-texlive-lang-portuguese
+--- mingw-w64-x86_64-texlive-lang-portuguese 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-portuguese 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-portuguese_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-portuguese_20210519.pkgs
+diff mingw-w64-x86_64-texlive-lang-spanish mingw-w64-clang-x86_64-texlive-lang-spanish
+--- mingw-w64-x86_64-texlive-lang-spanish 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-lang-spanish 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-lang-spanish_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-lang-spanish_20210519.pkgs
+diff mingw-w64-x86_64-texlive-latex-extra mingw-w64-clang-x86_64-texlive-latex-extra
+--- mingw-w64-x86_64-texlive-latex-extra 2021.20210519-3
++++ mingw-w64-clang-x86_64-texlive-latex-extra 2021.20210519-3
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-latex-extra_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-latex-extra_20210519.pkgs
+diff mingw-w64-x86_64-texlive-latex-recommended mingw-w64-clang-x86_64-texlive-latex-recommended
+--- mingw-w64-x86_64-texlive-latex-recommended 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-latex-recommended 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-latex-recommended_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-latex-recommended_20210519.pkgs
+diff mingw-w64-x86_64-texlive-luatex mingw-w64-clang-x86_64-texlive-luatex
+--- mingw-w64-x86_64-texlive-luatex 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-luatex 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-luatex_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-luatex_20210519.pkgs
+diff mingw-w64-x86_64-texlive-metapost mingw-w64-clang-x86_64-texlive-metapost
+--- mingw-w64-x86_64-texlive-metapost 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-metapost 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-metapost_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-metapost_20210519.pkgs
+diff mingw-w64-x86_64-texlive-music mingw-w64-clang-x86_64-texlive-music
+--- mingw-w64-x86_64-texlive-music 2021.20210519-3
++++ mingw-w64-clang-x86_64-texlive-music 2021.20210519-3
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-music_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-music_20210519.pkgs
+diff mingw-w64-x86_64-texlive-pictures mingw-w64-clang-x86_64-texlive-pictures
+--- mingw-w64-x86_64-texlive-pictures 2021.20210519-3
++++ mingw-w64-clang-x86_64-texlive-pictures 2021.20210519-3
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-pictures_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-pictures_20210519.pkgs
+diff mingw-w64-x86_64-texlive-plain-generic mingw-w64-clang-x86_64-texlive-plain-generic
+--- mingw-w64-x86_64-texlive-plain-generic 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-plain-generic 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-plain-generic_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-plain-generic_20210519.pkgs
+diff mingw-w64-x86_64-texlive-pstricks mingw-w64-clang-x86_64-texlive-pstricks
+--- mingw-w64-x86_64-texlive-pstricks 2021.20210519-3
++++ mingw-w64-clang-x86_64-texlive-pstricks 2021.20210519-3
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-pstricks_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-pstricks_20210519.pkgs
+diff mingw-w64-x86_64-texlive-publishers mingw-w64-clang-x86_64-texlive-publishers
+--- mingw-w64-x86_64-texlive-publishers 2021.20210519-2
++++ mingw-w64-clang-x86_64-texlive-publishers 2021.20210519-2
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-publishers_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-publishers_20210519.pkgs
+diff mingw-w64-x86_64-texlive-science mingw-w64-clang-x86_64-texlive-science
+--- mingw-w64-x86_64-texlive-science 2021.20210519-3
++++ mingw-w64-clang-x86_64-texlive-science 2021.20210519-3
++var/lib/texmf/msys2/installedpkgs/mingw-w64-clang-x86_64-texlive-science_20210519.pkgs
+-var/lib/texmf/msys2/installedpkgs/mingw-w64-x86_64-texlive-science_20210519.pkgs
+Only in mingw64: mingw-w64-tfel
+Only in mingw64: mingw-w64-tiledb
+Only in mingw64: mingw-w64-tiny-dnn
 diff mingw-w64-x86_64-tixi mingw-w64-clang-x86_64-tixi
---- mingw-w64-x86_64-tixi
-+++ mingw-w64-clang-x86_64-tixi
+--- mingw-w64-x86_64-tixi 2.2.4-2
++++ mingw-w64-clang-x86_64-tixi 2.2.4-2
 -include/tixi77.h
 -lib/libTIXIf.a
 diff mingw-w64-x86_64-tixi3 mingw-w64-clang-x86_64-tixi3
---- mingw-w64-x86_64-tixi3
-+++ mingw-w64-clang-x86_64-tixi3
+--- mingw-w64-x86_64-tixi3 3.1.1-2
++++ mingw-w64-clang-x86_64-tixi3 3.1.1-2
 -include/tixi3/tixi77.h
 -lib/libtixi3-f90.a
 -lib/tixi3/tixi3-f90-targets-release.cmake
 -lib/tixi3/tixi3-f90-targets.cmake
-Only in mingw64: mingw-w64-totem-pl-parser-3.26.3-2
-Only in mingw64: mingw-w64-transmission-2.94-2
-Only in mingw64: mingw-w64-ttfautohint-1.8.3-2
-Only in mingw64: mingw-w64-tulip-5.5.1-1
-Only in mingw64: mingw-w64-usbview-git-42.c4ba9c6-1
+Only in mingw64: mingw-w64-totem-pl-parser
+Only in mingw64: mingw-w64-transmission
+Only in mingw64: mingw-w64-tulip
+Only in mingw64: mingw-w64-usbview-git
 diff mingw-w64-x86_64-vala mingw-w64-clang-x86_64-vala
---- mingw-w64-x86_64-vala
-+++ mingw-w64-clang-x86_64-vala
+--- mingw-w64-x86_64-vala 0.52.4-1
++++ mingw-w64-clang-x86_64-vala 0.52.4-1
 -bin/libvaladoc-0.52-0.dll
 -bin/valadoc-0.52.exe
 -bin/valadoc.exe
@@ -2511,19 +3123,18 @@ diff mingw-w64-x86_64-vala mingw-w64-clang-x86_64-vala
 -share/valadoc-0.52/icons/virtualproperty.svg
 -share/valadoc-0.52/icons/warning.svg
 -share/valadoc-0.52/icons/wikistyle.css
-Only in mingw64: mingw-w64-vamp-plugin-sdk-2.10.0-2
-Only in mingw64: mingw-w64-vapoursynth-49-2
-Only in mingw64: mingw-w64-vid.stab-1.1-1
-Only in mingw64: mingw-w64-vigra-1.11.1-5
-Only in mingw64: mingw-w64-virt-viewer-9.0-1
-Only in mingw64: mingw-w64-virtualpg-2.0.1-1
-Only in mingw64: mingw-w64-vtk-8.2.0-7
-Only in mingw64: mingw-w64-winsparkle-0.6.0-1
-Only in mingw64: mingw-w64-wkhtmltopdf-git-0.13.r1049.51f9658-1
-Only in mingw64: mingw-w64-wt-4.5.0-1
+Only in mingw64: mingw-w64-vamp-plugin-sdk
+Only in mingw64: mingw-w64-vapoursynth
+Only in mingw64: mingw-w64-vid.stab
+Only in mingw64: mingw-w64-vigra
+Only in mingw64: mingw-w64-virt-viewer
+Only in mingw64: mingw-w64-virtualpg
+Only in mingw64: mingw-w64-vtk
+Only in mingw64: mingw-w64-winsparkle
+Only in mingw64: mingw-w64-wkhtmltopdf-git
 diff mingw-w64-x86_64-wxPython mingw-w64-clang-x86_64-wxPython
---- mingw-w64-x86_64-wxPython
-+++ mingw-w64-clang-x86_64-wxPython
+--- mingw-w64-x86_64-wxPython 4.1.1-2
++++ mingw-w64-clang-x86_64-wxPython 4.1.1-2
 -lib/python3.9/site-packages/wx/_adv.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/wx/_adv.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/wx/_aui.cp39-mingw_x86_64.pyd
@@ -2558,16 +3169,15 @@ diff mingw-w64-x86_64-wxPython mingw-w64-clang-x86_64-wxPython
 +lib/python3.9/site-packages/wx/_xrc.cp39-mingw_x86_64_clang.pyd
 -lib/python3.9/site-packages/wx/siplib.cp39-mingw_x86_64.pyd
 +lib/python3.9/site-packages/wx/siplib.cp39-mingw_x86_64_clang.pyd
-Only in mingw64: mingw-w64-xmlada-2021.0.0-2
+Only in mingw64: mingw-w64-xmlada
 diff mingw-w64-x86_64-xpdf mingw-w64-clang-x86_64-xpdf
---- mingw-w64-x86_64-xpdf
-+++ mingw-w64-clang-x86_64-xpdf
+--- mingw-w64-x86_64-xpdf 4.03-3
++++ mingw-w64-clang-x86_64-xpdf 4.03-3
 +share/doc/mingw-w64-clang-x86_64-xpdf/
 +share/doc/mingw-w64-clang-x86_64-xpdf/CHANGES
 +share/doc/mingw-w64-clang-x86_64-xpdf/README
 -share/doc/mingw-w64-x86_64-xpdf/
 -share/doc/mingw-w64-x86_64-xpdf/CHANGES
 -share/doc/mingw-w64-x86_64-xpdf/README
-Only in mingw64: mingw-w64-yosys-0.9.r10855.9af88951b-1
-Only in mingw64: mingw-w64-zbar-0.23.1-3
-Only in mingw64: mingw-w64-zeal-0.6.1-3
+Only in mingw64: mingw-w64-yosys
+Only in mingw64: mingw-w64-zbar
