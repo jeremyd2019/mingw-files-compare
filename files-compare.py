@@ -6,7 +6,7 @@ import argparse
 import re
 import sys
 
-from pacdb import pacdb
+import pacdb
 
 PACKAGE_PREFIXES = {
         "clang32":    "mingw-w64-clang-i686-",
